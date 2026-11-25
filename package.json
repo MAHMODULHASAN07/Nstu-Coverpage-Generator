@@ -1,0 +1,22 @@
+{
+  "name": "nstu-cover-generator",
+  "version": "1.0.0",
+  "description": "NSTU Cover Page Generator for Noakhali Science and Technology University students",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y serve . -l 5173",
+    "serve": "python3 -m http.server 5173",
+    "dev": "python3 -m http.server 5173"
+  },
+  "keywords": [
+    "nstu",
+    "cover-page",
+    "assignment",
+    "generator",
+    "noakhali-science-and-technology-university",
+    "pdf",
+    "docx"
+  ],
+  "author": "Mahmodul Hasan",
+  "license": "MIT"
+}

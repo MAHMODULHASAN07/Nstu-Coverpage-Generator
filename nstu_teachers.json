@@ -1,0 +1,2177 @@
+{
+  "IIT(SE)": {
+    "deptName": "Institute of Information Technology",
+    "teachers": [
+      {
+        "name": "Md. Auhidur Rahman",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Falguni Roy",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dipok Chandra Das",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Iftekhar Alam Efat",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Eusha Kadir",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tasnim Rahman",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Rafid Mostafiz",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Hasan Imam",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Jubayar Alam Rafi",
+        "designation": "Lecturer",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shudeb Babu Sen Omit",
+        "designation": "Lecturer",
+        "department": "Institute of Information Technology",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ISLM": {
+    "deptName": "Institute of Information Science",
+    "teachers": [
+      {
+        "name": "Umme Habiba",
+        "designation": "Associate Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD. ABDUL KARIM",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shamima Yesmin",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Emdadul Islam",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Sakib Biswas",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Atikuzzaman",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Mozammel Bhuyan",
+        "designation": "Assistant Professor",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sabiha Tasmim",
+        "designation": "Lecturer",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Musfica Tanzin",
+        "designation": "Lecturer",
+        "department": "Institute of Information Science",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "CSTE": {
+    "deptName": "Computer Science and Telecommunication Engineering",
+    "teachers": [
+      {
+        "name": "Ashadun Nobi",
+        "designation": "Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MOHAMMED HUMAYUN KABIR",
+        "designation": "Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Nahid Akter",
+        "designation": "Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Javed Hossain",
+        "designation": "Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nazia Majadi",
+        "designation": "Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Kamal Uddin",
+        "designation": "Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Abul Kalam Azad",
+        "designation": "Associate Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Fateha Khanam Bappee",
+        "designation": "Associate Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Hasnat Riaz",
+        "designation": "Assistant Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "A R M Mahamudul Hasan Rana",
+        "designation": "Assistant Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Ratnadip Kuri",
+        "designation": "Assistant Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "A Q M Sala Uddin Pathan",
+        "designation": "Assistant Professor",
+        "department": "Department of Computer Science and Telecommunication Engineering",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ICE": {
+    "deptName": "Information and Communication Engineering",
+    "teachers": [
+      {
+        "name": "Md. Ashikur Rahman Khan",
+        "designation": "Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Prof. Dr. Abidur Rahaman",
+        "designation": "Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Mohammad Amzad Hossain",
+        "designation": "Associate Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Masudur Rahman",
+        "designation": "Associate Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Main Uddin",
+        "designation": "Associate Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Apurba Adhikary",
+        "designation": "Associate Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Bipul Hossain",
+        "designation": "Assistant Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sultana Jahan Soheli",
+        "designation": "Assistant Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tanvir Zaman Khan",
+        "designation": "Assistant Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Mahbubul Alam",
+        "designation": "Assistant Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Sabbir Ejaz",
+        "designation": "Assistant Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Kamrul Hasan",
+        "designation": "Assistant Professor",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Ishtiaq Ahammad",
+        "designation": "Lecturer",
+        "department": "Department of Information and Communication Engineering",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "EEE": {
+    "deptName": "Electrical and Electronic Engineering",
+    "teachers": [
+      {
+        "name": "Mohd Abdur Rashid",
+        "designation": "Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Bellal Hossain",
+        "designation": "Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Ferdousi Mayoa",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Subrata Bhowmik",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Osman Ali",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "S M Jahadun Nobi",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Kamaruzzaman",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. S M Sohel Rana",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Rashidul Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Omar Faruk",
+        "designation": "Lecturer",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Israt Jahan",
+        "designation": "Lecturer",
+        "department": "Department of Electrical and Electronic Engineering",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ACCE": {
+    "deptName": "Applied Chemistry and Chemical Engineering",
+    "teachers": [
+      {
+        "name": "Prof. Dr. Muhammad Yusuf Miah",
+        "designation": "Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr Md. Ashraful Alam",
+        "designation": "Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Prof. Dr. Fataha Nur Robel",
+        "designation": "Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD TANVIR HOSSAIN",
+        "designation": "Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Rafiqul Islam",
+        "designation": "Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Saiful Alam",
+        "designation": "Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Azizul Haque",
+        "designation": "Associate Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nahid Sultana",
+        "designation": "Associate Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shukanta Bhowmik",
+        "designation": "Associate Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shafiul Islam",
+        "designation": "Associate Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Snahasish Bhowmik",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mithun Rani Nath",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Kaniz Fatema",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Abdus Samad Azad",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Khodeja Afrin",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Fariha Afrose",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Tariful Islam",
+        "designation": "Lecturer",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Zahid Hasan",
+        "designation": "Lecturer",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Didarul Islam",
+        "designation": "Lecturer",
+        "department": "Department of Applied Chemistry and Chemical Engineering",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "AMATH": {
+    "deptName": "Applied Mathematics",
+    "teachers": [
+      {
+        "name": "Dr. Mohammad Raquibul Hossain",
+        "designation": "Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr Muhammad Hanif",
+        "designation": "Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Jamal Hossain",
+        "designation": "Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Jashim Uddin",
+        "designation": "Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammed Nizam Uddin",
+        "designation": "Associate Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md Rifat Hasan",
+        "designation": "Associate Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Salma Jahan",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "H. M. Shahadat Ali",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Farzana Sultana Rafi",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sadia Akter Lima",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD ABDUL AZIZ",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Forhad Mahmud",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Jannatul Naime",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Jamal Uddin",
+        "designation": "Assistant Professor",
+        "department": "Department of Applied Mathematics",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ESDM": {
+    "deptName": "Environmental Science and Disaster Management",
+    "teachers": [
+      {
+        "name": "Mohammad Mohinuzzaman",
+        "designation": "Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Jayanta Kumar Basak",
+        "designation": "Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shiblur Rahaman",
+        "designation": "Associate Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Protima Sarker",
+        "designation": "Associate Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Shohel Khan",
+        "designation": "Associate Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shahriar Md Arifur Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sanjay Saha Sonet",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Pinaki Chowdhury",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "ATKEEYA TASNEEM",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Niger Sultana",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sajib Ahmed",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Fahmida Alam Bintu",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Kamruzzaman Tusar",
+        "designation": "Assistant Professor",
+        "department": "Department of Environmental Science and Disaster Management",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "STAT": {
+    "deptName": "Statistics",
+    "teachers": [
+      {
+        "name": "Md Shohel Rana",
+        "designation": "Associate Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Najma Begum",
+        "designation": "Associate Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mimma Tabassum",
+        "designation": "Assistant Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Mamun Miah",
+        "designation": "Assistant Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Omar Faruk",
+        "designation": "Assistant Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD IFTAKHAR PARVEJ",
+        "designation": "Assistant Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Rasel Hossain",
+        "designation": "Assistant Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shohel Mahmud",
+        "designation": "Assistant Professor",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sorif Hossain",
+        "designation": "Lecturer",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Monira Yeasmin",
+        "designation": "Lecturer",
+        "department": "Department of Statistics",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "OCN": {
+    "deptName": "Oceanography",
+    "teachers": [
+      {
+        "name": "Dr. M. Golam Mustafa",
+        "designation": "Associate Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Mohammad Abdul Momin Siddique",
+        "designation": "Associate Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Sohel Parvez",
+        "designation": "Associate Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Najmus Sakib Khan",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Razat Suvra Das",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mahfuzur Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Abid Hasan",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Fahmida Akter",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD MESBAH UDDIN BHUIYAN",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "IMTIAJ AHMED EASTY",
+        "designation": "Assistant Professor",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Jaker Hossain",
+        "designation": "Lecturer",
+        "department": "Department of Oceanography",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "PHY": {
+    "deptName": "Physics",
+    "teachers": [
+      {
+        "name": "Jakiul Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Physics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Masum Sarker",
+        "designation": "Lecturer",
+        "department": "Department of Physics",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "CHE": {
+    "deptName": "Chemistry",
+    "teachers": [
+      {
+        "name": "Professor Newaz Mohammed Bahadur",
+        "designation": "Professor",
+        "department": "Department of Chemistry",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shahajahan Kutubi",
+        "designation": "Associate Professor",
+        "department": "Department of Chemistry",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Shahadat Hossain",
+        "designation": "Assistant Professor",
+        "department": "Department of Chemistry",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohebul Ahsan",
+        "designation": "Lecturer",
+        "department": "Department of Chemistry",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Fahamidul Islam",
+        "designation": "Lecturer",
+        "department": "Department of Chemistry",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nasrin Akter",
+        "designation": "Lecturer",
+        "department": "Department of Chemistry",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ENG": {
+    "deptName": "English",
+    "teachers": [
+      {
+        "name": "Dr. Shirin Akter",
+        "designation": "Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Khandakar Ashraful Islam",
+        "designation": "Associate Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Muhammad Mushfiqur Rahman",
+        "designation": "Associate Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Fatema Akter",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Maruf Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "DEBASHISMOY DUTTA",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Rubaiyan Asif",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "bithi mojumder",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Rifat Binte Joynal",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Jony Miah",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nusrat Jahan",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shahera Khatun",
+        "designation": "Assistant Professor",
+        "department": "Department of English",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ECO": {
+    "deptName": "Economics",
+    "teachers": [
+      {
+        "name": "Mohammad Mokammel Karim Toufique",
+        "designation": "Associate Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "S. M. Woahid Murad",
+        "designation": "Associate Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Farid Dewan",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MAHBUBUR RAHMAN",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shaddam Hossain",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Golam Kibria",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Farian Tahrim",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Akter Hossain",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Atik Hasan",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Afrida Jinnurain Urbee",
+        "designation": "Assistant Professor",
+        "department": "Department of Economics",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "POL": {
+    "deptName": "Political Science",
+    "teachers": [
+      {
+        "name": "Prof. Dr. Dibyadyuti Sarkar",
+        "designation": "Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shahin Kadir Bhuiyan",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Susmita Rani Dash",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shahnewaz",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Kamrunnahar",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Anjan Kumar Nath",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dipu Kumar",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tasnim Alam",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Enayet Hossen",
+        "designation": "Assistant Professor",
+        "department": "Department of Political Science",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "SOC": {
+    "deptName": "Sociology",
+    "teachers": [
+      {
+        "name": "Prof. Dr. Md. Roknuzzaman Siddiky",
+        "designation": "Professor",
+        "department": "Department of Sociology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Israt Eshita Haque",
+        "designation": "Assistant Professor",
+        "department": "Department of Sociology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Muniruzzaman",
+        "designation": "Assistant Professor",
+        "department": "Department of Sociology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohibul Islam",
+        "designation": "Lecturer",
+        "department": "Department of Sociology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mahbuba Akter Shanta",
+        "designation": "Lecturer",
+        "department": "Department of Sociology",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "BAN": {
+    "deptName": "Bangla",
+    "teachers": [
+      {
+        "name": "Dr. Mohammad Anwer Hossain",
+        "designation": "Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Shuvendhu Saha",
+        "designation": "Associate Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Sohanuzzaman",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nilufa ara akhter",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sahana Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "LABANYA MONDAL",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sadika Parvin Tamanna",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Jakariya Hossen",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Papy Biswas",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Monju Rani Das",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nazia ferdoush",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tithi Debnath",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mst. Charmin Sultana",
+        "designation": "Assistant Professor",
+        "department": "Department of Bangla",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "SW": {
+    "deptName": "Social Work",
+    "teachers": [
+      {
+        "name": "Monia Manjur",
+        "designation": "Assistant Professor",
+        "department": "Department of Social Work",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Chayon Sikder",
+        "designation": "Assistant Professor",
+        "department": "Department of Social Work",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Seefat-E-Mannan",
+        "designation": "Assistant Professor",
+        "department": "Department of Social Work",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sheikh Marufa Nabila",
+        "designation": "Assistant Professor",
+        "department": "Department of Social Work",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "DBA": {
+    "deptName": "Business Administration",
+    "teachers": [
+      {
+        "name": "Dr.S.M.Mahbubur Rahman",
+        "designation": "Professor",
+        "department": "Department of Business Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD ABDUL KAIUM MASUD",
+        "designation": "Professor",
+        "department": "Department of Business Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Masum Miah",
+        "designation": "Associate Professor",
+        "department": "Department of Business Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shafiqul Alam",
+        "designation": "Associate Professor",
+        "department": "Department of Business Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Subarna Biswas",
+        "designation": "Assistant Professor",
+        "department": "Department of Business Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Trina Saha",
+        "designation": "Assistant Professor",
+        "department": "Department of Business Administration",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "THM": {
+    "deptName": "Tourism and Hospitality Management",
+    "teachers": [
+      {
+        "name": "Mst. Jannatul Mawa",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shohel Md. Nafi",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mst.Rinu Fatema",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Nazmul Huda",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sanjoy Kumar Roy",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MD. JAMSEDUL ISLAM",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tanvir Ahmed",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sanjoy kumar acharjee",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shelamony Hafsa",
+        "designation": "Assistant Professor",
+        "department": "Department of Tourism and Hospitality Management",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "MIS": {
+    "deptName": "Management Information Systems",
+    "teachers": [
+      {
+        "name": "Dr. Md. Ziaul Haque",
+        "designation": "Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Sk Habibur Rahaman",
+        "designation": "Associate Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Habibur Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tonmoy Dey",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Al Amin",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Trisha Saha",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Muhammad Abdus Salam",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shahriare Satu",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Israt Jahan Shithii",
+        "designation": "Assistant Professor",
+        "department": "Department of Management Information Systems",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "EDU": {
+    "deptName": "Education",
+    "teachers": [
+      {
+        "name": "Biplob Mallick",
+        "designation": "Professor",
+        "department": "Department of Education",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Syed Md Siam",
+        "designation": "Assistant Professor",
+        "department": "Department of Education",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shahriar Shafiq",
+        "designation": "Lecturer",
+        "department": "Department of Education",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Mokarram Hossain",
+        "designation": "Lecturer",
+        "department": "Department of Education",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "EDU_ADM": {
+    "deptName": "Educational Administration",
+    "teachers": [
+      {
+        "name": "G M Rakibul Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Educational Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Bikram Biswas",
+        "designation": "Assistant Professor",
+        "department": "Department of Educational Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shamsul Arefin",
+        "designation": "Assistant Professor",
+        "department": "Department of Educational Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Ramizul Islam",
+        "designation": "Lecturer",
+        "department": "Department of Educational Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Jahid Hasan",
+        "designation": "Lecturer",
+        "department": "Department of Educational Administration",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Minhazul Abdin",
+        "designation": "Lecturer",
+        "department": "Department of Educational Administration",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "LAW": {
+    "deptName": "Law",
+    "teachers": [
+      {
+        "name": "Badsha Mia",
+        "designation": "Associate Professor",
+        "department": "Department of Law",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "SAZZADUL KARIM",
+        "designation": "Assistant Professor",
+        "department": "Department of Law",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Masoud Ahmad",
+        "designation": "Lecturer",
+        "department": "Department of Law",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Joynab Binta Marium Kali",
+        "designation": "Lecturer",
+        "department": "Department of Law",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "FIMS": {
+    "deptName": "Fisheries and Marine Science",
+    "teachers": [
+      {
+        "name": "Prof. Dr. Md. Jahangir Sarker",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Belal Hossain",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Abdullah-Al Mamun",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Debasish Saha",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Anisuzzaman",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Professor Dr. Mehedi Mahmudul Hasan",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Rakeb-Ul Islam",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Bhakta Supratim Sarker",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Professor Dr. Md. Mofizur Rahman",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "A F M Arifur Rahman",
+        "designation": "Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Robiul Hasan",
+        "designation": "Associate Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shyamal Kumar Paul Ph.D.",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shuvagato Mondal",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md Akram Ullah",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Smriti Chakraborty",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "tasnim sultana",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Nahid Sultana",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Jahanara Akhter Lipi",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Afsana Kabir Dipty",
+        "designation": "Assistant Professor",
+        "department": "Department of Fisheries and Marine Science",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "PHARMA": {
+    "deptName": "Pharmacy",
+    "teachers": [
+      {
+        "name": "Latifa Bulbul",
+        "designation": "Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Salim Hossain",
+        "designation": "Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Safiqul Islam",
+        "designation": "Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Professor Dr. Jamiuddin Ahmed",
+        "designation": "Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Mamun Or Rashid",
+        "designation": "Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Palash Karmakar",
+        "designation": "Associate Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Shahid Sarwar",
+        "designation": "Associate Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Fahad Hussain",
+        "designation": "Associate Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Abhijit Das",
+        "designation": "Associate Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Sujan Banik",
+        "designation": "Associate Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Saddam Hussain",
+        "designation": "Associate Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Test User",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shalahuddin Millat",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Sarowar Uddin",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mahmuda Ferdous",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Tohidul Amin",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Monirul Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Abdur Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Abdur Rahman Ripon",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Abdul Barek",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Mahmodul Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Pharmacy",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "MBG": {
+    "deptName": "Microbiology",
+    "teachers": [
+      {
+        "name": "Firoz Ahmed",
+        "designation": "Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Foysal Hossen",
+        "designation": "Associate Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Abanti",
+        "designation": "Associate Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Ruhul Amin",
+        "designation": "Associate Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Khandokar Fahmida Sultana",
+        "designation": "Associate Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Toslim Mahmud, Ph.D",
+        "designation": "Associate Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mir Salma Akter",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sanjoy Kumar Mukharjee",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Sadikur Rahman Shuvo",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mahin Reza",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "popydevnath",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Otun Saha",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Sharif Uddin",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Imam Hossain",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nikkon Sarker",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sumita Rani Saha",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sultana Rajia",
+        "designation": "Assistant Professor",
+        "department": "Department of Microbiology",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "FTNS": {
+    "deptName": "Food Technology and Nutrition Science",
+    "teachers": [
+      {
+        "name": "Md Abdullah Al Mamun",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Tazul Islam",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "MANSURA MOKBUL",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Supriya Ghosh",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr Md Ruhul Kabir",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Towhid Hasan",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Anwar Ul Alam",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Marjia Sultana",
+        "designation": "Associate Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Rahanur Alam",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "ISRAT JAHAN",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Lincon Chandra Shill",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nahian Rahman",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Asadul Habib",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sinthia Shahreen Bristy",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Smarnima Ghosh Jui",
+        "designation": "Assistant Professor",
+        "department": "Department of Food Technology and Nutrition Science",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "BGE": {
+    "deptName": "Biotechnology and Genetic Engineering",
+    "teachers": [
+      {
+        "name": "Dr. Md. Murad Hossain",
+        "designation": "Associate Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Mohammed Mafizul Islam",
+        "designation": "Associate Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Abunasar Miah",
+        "designation": "Associate Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Anwar Hossain",
+        "designation": "Associate Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Razia Sultana",
+        "designation": "Associate Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md Shahriar Kabir Shakil",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Shipan Das Gupta",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Kobirul Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shuvo Chandra Das",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Easin Mia",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Farzana Akter",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Abdul Kader",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tanvir Hossain Emon",
+        "designation": "Assistant Professor",
+        "department": "Department of Biotechnology and Genetic Engineering",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "AGRI": {
+    "deptName": "Department of Agriculture",
+    "teachers": [
+      {
+        "name": "Atiqur Rahman Bhuiyan",
+        "designation": "Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Gazi Md. Mohsin",
+        "designation": "Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mehede Hassan Rubel (PhD)",
+        "designation": "Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Kawsar Hossen",
+        "designation": "Associate Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Shohrab Hoshain",
+        "designation": "Associate Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Shafiqul Islam",
+        "designation": "Associate Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Nusrat Jahan Methela",
+        "designation": "Associate Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Amena Khatun",
+        "designation": "Associate Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Mohammed Nuruzzaman",
+        "designation": "Associate Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sabia Khan",
+        "designation": "Assistant Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Kazi",
+        "designation": "Assistant Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Pijush Kanti Jhan",
+        "designation": "Assistant Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Shariful Islam",
+        "designation": "Assistant Professor",
+        "department": "Department of Agriculture",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "BMB": {
+    "deptName": "Biochemistry and Molecular Biology",
+    "teachers": [
+      {
+        "name": "Dr. Mohammad Safiqul Islam",
+        "designation": "Professor",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Subodh Kumar Sarkar",
+        "designation": "Associate Professor",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Liza Teresa Rozario",
+        "designation": "Assistant Professor",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Md. Reaz Morshed",
+        "designation": "Assistant Professor",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Tahsin Nairuz",
+        "designation": "Assistant Professor",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mohammad Asaduzzaman",
+        "designation": "Assistant Professor",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Ahsanul Mahbub Jubayar",
+        "designation": "Lecturer",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Dr. Md. Monirul Islam",
+        "designation": "Lecturer",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Shariful Islam",
+        "designation": "Lecturer",
+        "department": "Department of Biochemistry and Molecular Biology",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "ZOO": {
+    "deptName": "Zoology",
+    "teachers": [
+      {
+        "name": "HUMAYRA MAHMUD",
+        "designation": "Assistant Professor",
+        "department": "Department of Zoology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Sadia Sultana",
+        "designation": "Assistant Professor",
+        "department": "Department of Zoology",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nasrin Akter Bristy",
+        "designation": "Lecturer",
+        "department": "Department of Zoology",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  },
+  "SWE": {
+    "deptName": "Soil, Water and Environmental Sciences",
+    "teachers": [
+      {
+        "name": "Khandakar Taki Md. Sadi",
+        "designation": "Lecturer",
+        "department": "Department of Soil, Water and Environmental Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mehedi Hasan",
+        "designation": "Lecturer",
+        "department": "Department of Soil, Water and Environmental Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Mariha Rahman",
+        "designation": "Lecturer",
+        "department": "Department of Soil, Water and Environmental Science",
+        "university": "Noakhali Science and Technology University"
+      },
+      {
+        "name": "Nishat Farabi",
+        "designation": "Lecturer",
+        "department": "Department of Soil, Water and Environmental Science",
+        "university": "Noakhali Science and Technology University"
+      }
+    ]
+  }
+}
