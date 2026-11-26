@@ -1,0 +1,6 @@
+# robots.txt for NSTU Cover Page Generator
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://nstu-coverpage-generator.vercel.app/sitemap.xml

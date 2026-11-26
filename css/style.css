@@ -257,7 +257,7 @@ body {
     height: auto !important;
   }
   /* Hide all app UI chrome */
-  nav, header, footer, #hero-section, #homepage-section, #form-container, #preview-header, #toast-container, .no-print, button, input, select {
+  nav, header, footer, #hero-section, #academic-guidelines, #homepage-section, #form-container, #preview-header, #toast-container, .no-print, button, input, select {
     display: none !important;
   }
   main, #generator-section, #preview-wrapper, .preview-zoom-container {
