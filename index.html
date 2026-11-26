@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NSTU Cover Page Generator | Create & Download Academic Cover Pages</title>
-  <meta name="description" content="Generate official university assignment, lab report, and project cover pages for Noakhali Science and Technology University students. Download as selectable PDF or editable Word (DOCX).">
+  <meta name="description"
+    content="Generate official university assignment, lab report, and project cover pages for Noakhali Science and Technology University students. Download as selectable PDF or editable Word (DOCX).">
   <link rel="icon" type="image/png" href="assets/logos/nstu-logo.png">
 
   <!-- Offline-first Client Libraries with CDN Fallbacks -->
@@ -39,6 +41,7 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
 
   <!-- Toast Notification Container -->
@@ -50,11 +53,13 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo & Brand -->
         <a href="#home" class="flex items-center gap-3 group">
-          <img src="assets/logos/nstu-logo.png" alt="NSTU Crest" class="h-10 w-auto object-contain transition-transform group-hover:scale-105">
+          <img src="assets/logos/nstu-logo.png" alt="NSTU Crest"
+            class="h-10 w-auto object-contain transition-transform group-hover:scale-105">
           <div>
             <div class="text-lg font-bold text-nstu-deep leading-tight tracking-tight flex items-center gap-1.5">
               <span>NSTU Cover Page Generator</span>
-              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-800">Pro</span>
+              <span
+                class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-800">Pro</span>
             </div>
             <p class="text-xs text-slate-500 font-medium">Noakhali Science and Technology University</p>
           </div>
@@ -63,19 +68,19 @@
         <!-- Desktop Navigation Links -->
         <div class="hidden md:flex items-center gap-6">
           <a href="#home" class="text-sm font-medium text-slate-600 hover:text-nstu-royal transition-colors">Home</a>
-          <a href="#generator-section" class="text-sm font-medium text-slate-600 hover:text-nstu-royal transition-colors">Generator</a>
-          
-          <button id="btn-hero-create" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-nstu-navy hover:bg-nstu-royal text-white text-sm font-semibold shadow-md shadow-blue-950/10 hover:shadow-lg transition-all active:scale-95">
+          <a href="#generator-section" id="btn-nav-create"
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-nstu-navy hover:bg-nstu-royal text-white text-sm font-semibold shadow-md shadow-blue-950/10 hover:shadow-lg transition-all hover:-translate-y-0.5 active:scale-95 cursor-pointer">
             <i data-lucide="file-plus" class="w-4 h-4"></i>
             <span>Create Cover Page</span>
-          </button>
+          </a>
         </div>
 
         <!-- Mobile Quick CTA -->
         <div class="flex md:hidden items-center gap-2">
-          <a href="#generator-section" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-nstu-navy text-white text-xs font-semibold">
-            <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
-            <span>Generator</span>
+          <a href="#generator-section" id="btn-nav-create-mobile"
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-nstu-navy hover:bg-nstu-royal text-white text-xs font-semibold shadow-sm active:scale-95 cursor-pointer">
+            <i data-lucide="file-plus" class="w-3.5 h-3.5"></i>
+            <span>Create Cover Page</span>
           </a>
         </div>
       </div>
@@ -83,48 +88,131 @@
   </nav>
 
   <!-- Homepage / Hero Section -->
-  <section id="home" class="relative overflow-hidden bg-hero-pattern text-white py-16 md:py-24 no-print border-b border-slate-800">
+  <section id="home"
+    class="relative overflow-hidden bg-hero-pattern text-white py-12 md:py-20 no-print border-b border-slate-800">
+    <!-- Ambient glow decorative blobs -->
+    <div class="absolute -top-32 -left-32 w-80 h-80 bg-blue-600/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-32 -right-32 w-80 h-80 bg-indigo-600/15 rounded-full blur-3xl pointer-events-none">
+    </div>
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="max-w-3xl">
-        <!-- Badge -->
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-medium mb-6 backdrop-blur-sm">
-          <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
-          <span>Official Academic Format Standard for NSTU Students</span>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+
+        <!-- Left Column: Headline & Action -->
+        <div class="lg:col-span-6 space-y-6">
+          <!-- Badge -->
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-medium backdrop-blur-sm">
+            <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
+            <span>Official Academic Format Standard for NSTU Students</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-white">
+            Generate Professional <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-300">NSTU Cover
+              Pages</span> in 1 minute
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-normal">
+            Tired of formatting tables and misaligned logos in Microsoft Word? Enter your course and student
+            information, preview live, and download a university-compliant cover page as selectable vector
+            <strong>PDF</strong> or fully editable <strong>Word (DOCX)</strong>.
+          </p>
+
+          <!-- CTA Action Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-1">
+            <a href="#generator-section"
+              class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm sm:text-base shadow-xl shadow-blue-600/30 hover:shadow-blue-500/40 transition-all hover:-translate-y-0.5 active:scale-95">
+              <i data-lucide="sparkles" class="w-5 h-5 text-amber-300"></i>
+              <span>Create Cover Page Now</span>
+            </a>
+          </div>
+
+          <!-- Trust Points / Stats -->
+          <div
+            class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6 border-t border-slate-700/60 text-slate-300 text-xs sm:text-sm">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+              <span>100% Free & No Sign-up</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="file-check-2" class="w-4 h-4 text-sky-400 flex-shrink-0"></i>
+              <span>Editable Word & Selectable PDF</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="shield-check" class="w-4 h-4 text-indigo-400 flex-shrink-0"></i>
+              <span>Authentic NSTU & IIT Logos</span>
+            </div>
+          </div>
         </div>
 
-        <!-- Headline -->
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-white mb-6">
-          Generate Professional <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-300">NSTU Cover Pages</span> in 60 Seconds
-        </h1>
+        <!-- Right Column: University Campus Photo Showcase Frame -->
+        <div class="lg:col-span-6 w-full max-w-xl mx-auto lg:max-w-none">
+          <!-- Glassmorphic Outer Frame -->
+          <div class="relative p-3 sm:p-4 rounded-3xl bg-gradient-to-br from-white/15 via-white/5 to-white/10 backdrop-blur-xl border border-white/20 shadow-2xl shadow-blue-950/80">
 
-        <!-- Subtitle -->
-        <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl font-normal">
-          Tired of formatting tables and misaligned logos in Microsoft Word? Enter your course and student information, preview live, and download a university-compliant cover page as selectable vector <strong>PDF</strong> or fully editable <strong>Word (DOCX)</strong>.
-        </p>
+            <!-- Floating Top Decorative Glow Ring -->
+            <div class="absolute -top-4 -right-4 w-28 h-28 bg-blue-500/30 rounded-full blur-2xl pointer-events-none"></div>
 
-        <!-- CTA Action Buttons -->
-        <div class="flex flex-wrap items-center gap-4">
-          <a href="#generator-section" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm sm:text-base shadow-xl shadow-blue-600/30 hover:shadow-blue-500/40 transition-all hover:-translate-y-0.5 active:scale-95">
-            <i data-lucide="sparkles" class="w-5 h-5 text-amber-300"></i>
-            <span>Create Cover Page Now</span>
-          </a>
+            <!-- Inner Screen Frame / Aspect Ratio Box -->
+            <div id="hero-carousel-frame" class="relative w-full aspect-[16/11] sm:aspect-[16/10] lg:aspect-[4/3] min-h-[320px] sm:min-h-[400px] lg:min-h-[440px] rounded-2xl overflow-hidden bg-slate-950 shadow-inner group select-none">
+
+              <!-- Stack of 6 Campus Images -->
+              <img src="assets/hero%20section%20image/image1.jpg" alt="NSTU Campus View 1"
+                class="hero-slide-img absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out opacity-100 scale-100 z-10">
+              <img src="assets/hero%20section%20image/image2.jpeg" alt="NSTU Campus View 2"
+                class="hero-slide-img absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out opacity-0 scale-105 pointer-events-none z-0">
+              <img src="assets/hero%20section%20image/image3.jpeg" alt="NSTU Campus View 3"
+                class="hero-slide-img absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out opacity-0 scale-105 pointer-events-none z-0">
+              <img src="assets/hero%20section%20image/image4.jpeg" alt="NSTU Campus View 4"
+                class="hero-slide-img absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out opacity-0 scale-105 pointer-events-none z-0">
+              <img src="assets/hero%20section%20image/image5.jpeg" alt="NSTU Campus View 5"
+                class="hero-slide-img absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out opacity-0 scale-105 pointer-events-none z-0">
+              <img src="assets/hero%20section%20image/image6.jpeg" alt="NSTU Campus View 6"
+                class="hero-slide-img absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out opacity-0 scale-105 pointer-events-none z-0">
+
+              <!-- Cinematic Dark Vignette Overlay -->
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/15 to-black/25 pointer-events-none z-15">
+              </div>
+
+              <!-- Top Left Badge: NSTU Campus -->
+              <div class="absolute top-3.5 left-3.5 z-20 flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-950/75 backdrop-blur-md border border-white/20 text-white text-xs font-semibold shadow-md">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>NSTU Campus</span>
+              </div>
+
+              <!-- Top Right Slide Counter -->
+              <div id="hero-slider-counter" class="absolute top-3.5 right-3.5 z-20 px-3 py-1 rounded-full bg-slate-950/75 backdrop-blur-md border border-white/20 text-slate-200 text-xs font-mono font-medium shadow-md">
+                1 / 6
+              </div>
+
+              <!-- Bottom Caption Bar -->
+              <div class="absolute bottom-3.5 left-3.5 right-3.5 z-20 flex items-center justify-between text-xs sm:text-sm text-white/95">
+                <span id="hero-slider-caption" class="font-semibold flex items-center gap-2 truncate drop-shadow text-slate-100 text-xs sm:text-sm">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-blue-400 shrink-0"></i>
+                  Academic Complex & Central Campus
+                </span>
+              </div>
+
+              <!-- Arrow Navigation Buttons -->
+              <button type="button" id="btn-hero-prev" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 p-2.5 sm:p-3 rounded-full bg-slate-950/60 hover:bg-slate-950/90 text-white border border-white/20 backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 hover:scale-110 active:scale-95 shadow-md cursor-pointer" aria-label="Previous Campus Photo">
+                <i data-lucide="chevron-left" class="w-5 h-5"></i>
+              </button>
+              <button type="button" id="btn-hero-next" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 p-2.5 sm:p-3 rounded-full bg-slate-950/60 hover:bg-slate-950/90 text-white border border-white/20 backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 hover:scale-110 active:scale-95 shadow-md cursor-pointer" aria-label="Next Campus Photo">
+                <i data-lucide="chevron-right" class="w-5 h-5"></i>
+              </button>
+            </div>
+
+            <!-- Dot Indicators Below Frame -->
+            <div id="hero-slider-dots" class="flex items-center justify-center gap-2 mt-3.5">
+              <!-- Dots injected by JS -->
+            </div>
+          </div>
         </div>
 
-        <!-- Trust Points / Stats -->
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-10 mt-10 border-t border-slate-700/60 text-slate-300 text-xs sm:text-sm">
-          <div class="flex items-center gap-2">
-            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
-            <span>100% Free & No Sign-up</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <i data-lucide="file-check-2" class="w-4 h-4 text-sky-400 flex-shrink-0"></i>
-            <span>Editable Word & Selectable PDF</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <i data-lucide="shield-check" class="w-4 h-4 text-indigo-400 flex-shrink-0"></i>
-            <span>Authentic NSTU & IIT Logos</span>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -135,35 +223,29 @@
   <main id="generator-section" class="flex-1 py-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
 
     <!-- Workspace Top Header Bar -->
-    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 pb-4 border-b border-slate-200 no-print">
+    <div
+      class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 pb-4 border-b border-slate-200 no-print">
       <div>
         <h2 class="text-2xl font-bold text-nstu-deep flex items-center gap-2">
           <span>Cover Page Generator</span>
-          <span class="text-xs font-medium px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">Live Auto-Save</span>
+          <span
+            class="text-xs font-medium px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">Live
+            Auto-Save</span>
         </h2>
-        <p class="text-xs sm:text-sm text-slate-500">Edit any field below to watch the live A4 cover page update instantly.</p>
+        <p class="text-xs sm:text-sm text-slate-500">Edit any field below to watch the live A4 cover page update
+          instantly.</p>
       </div>
 
-      <!-- Quick Template Selector & Action Bar -->
-      <div class="flex flex-wrap items-center gap-3">
-        <!-- Preset Dropdown -->
-        <div class="flex items-center gap-1.5 text-xs bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 shadow-sm">
-          <i data-lucide="bookmark" class="w-3.5 h-3.5 text-slate-400"></i>
-          <label for="select-quick-preset" class="font-medium text-slate-600">Template:</label>
-          <select id="select-quick-preset" class="bg-transparent font-semibold text-slate-800 focus:outline-none cursor-pointer">
-            <option value="sample">Software Metrics Lab (Sample)</option>
-            <option value="labReport">Algorithms Lab Report</option>
-            <option value="projectReport">SE Project Report</option>
-            <option value="termPaper">Term Paper / Research</option>
-          </select>
-        </div>
-
+      <!-- Action Bar: Direct Download Buttons -->
+      <div class="flex items-center gap-3">
         <!-- Download Buttons on Top Bar -->
-        <button id="btn-download-pdf-top" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold shadow-sm transition-all">
+        <button id="btn-download-pdf-top"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold shadow-sm transition-all">
           <i data-lucide="download" class="w-3.5 h-3.5"></i>
           <span>PDF</span>
         </button>
-        <button id="btn-download-docx-top" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 text-white text-xs font-semibold shadow-sm transition-all">
+        <button id="btn-download-docx-top"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 text-white text-xs font-semibold shadow-sm transition-all">
           <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
           <span>DOCX</span>
         </button>
@@ -172,52 +254,94 @@
 
     <!-- Mobile View Tab Switcher (Visible only on mobile/tablet screens < 1024px) -->
     <div class="lg:hidden flex rounded-xl bg-slate-200 p-1 mb-6 no-print">
-      <button id="mobile-tab-btn-form" class="flex-1 py-2 rounded-lg text-xs font-bold transition-all bg-blue-900 text-white flex items-center justify-center gap-1.5 shadow-sm">
+      <button id="mobile-tab-btn-form"
+        class="flex-1 py-2 rounded-lg text-xs font-bold transition-all bg-blue-900 text-white flex items-center justify-center gap-1.5 shadow-sm">
         <i data-lucide="edit-3" class="w-4 h-4"></i>
         <span>1. Edit Form</span>
       </button>
-      <button id="mobile-tab-btn-preview" class="flex-1 py-2 rounded-lg text-xs font-bold transition-all bg-white text-slate-700 flex items-center justify-center gap-1.5">
+      <button id="mobile-tab-btn-preview"
+        class="flex-1 py-2 rounded-lg text-xs font-bold transition-all bg-white text-slate-700 flex items-center justify-center gap-1.5">
         <i data-lucide="eye" class="w-4 h-4"></i>
         <span>2. Live Preview & Download</span>
       </button>
     </div>
 
     <!-- Workspace Grid: Left Form (50%), Right Live Preview (50%) -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+    <div id="workspace-grid" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch lg:h-[calc(100vh-6rem)] lg:min-h-[720px]">
 
       <!-- ================= LEFT COLUMN: FORM CONTROLS ================= -->
-      <div id="form-container" class="lg:col-span-6 space-y-6">
+      <div id="form-container" class="lg:col-span-6 space-y-4 lg:h-full lg:overflow-y-auto lg:pr-3 custom-scrollbar">
+
+        <!-- Form Accordion Control Bar -->
+        <div class="flex items-center justify-between px-1 pb-1">
+          <div class="flex items-center gap-2">
+            <i data-lucide="layers" class="w-4 h-4 text-blue-600"></i>
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-700">Editable Form Sections</span>
+            <span class="text-[10px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full border border-slate-200">5 Modules</span>
+          </div>
+          <div class="flex items-center gap-2 text-xs">
+            <button type="button" id="btn-accordion-expand-all" class="font-semibold text-blue-600 hover:text-blue-800 transition-colors cursor-pointer">
+              Expand All
+            </button>
+            <span class="text-slate-300">|</span>
+            <button type="button" id="btn-accordion-collapse-all" class="font-semibold text-slate-500 hover:text-slate-700 transition-colors cursor-pointer">
+              Collapse All
+            </button>
+          </div>
+        </div>
 
         <!-- Card 1: Document & Course Information -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6 transition-all hover:shadow-md">
-          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-            <h3 class="text-base font-bold text-nstu-deep flex items-center gap-2">
-              <i data-lucide="book-open" class="w-4 h-4 text-blue-600"></i>
-              <span>Course & Document Information</span>
-            </h3>
-            <span class="text-xs text-slate-400 font-medium">Header Info</span>
-          </div>
+        <div class="accordion-card bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all hover:shadow-md">
+          <button type="button" class="accordion-header w-full flex items-center justify-between p-4 sm:p-5 text-left transition-colors hover:bg-slate-50/80 cursor-pointer" aria-expanded="false" data-target="accordion-content-1">
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center flex-shrink-0 border border-blue-100 shadow-2xs">
+                <i data-lucide="book-open" class="w-5 h-5"></i>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-2">
+                  <span class="text-sm sm:text-base font-bold text-nstu-deep">Course & Document Information</span>
+                  <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 hidden sm:inline-block">Header Info</span>
+                </div>
+                <p class="text-xs text-slate-500 truncate mt-0.5">University, Topic, Course Code, Submission Date</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5 flex-shrink-0 ml-2">
+              <span class="accordion-status text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100 hidden sm:inline-block">
+                Click to Edit
+              </span>
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 bg-slate-50 border border-slate-200/80">
+                <i data-lucide="chevron-down" class="accordion-chevron w-4 h-4 transition-transform duration-200"></i>
+              </div>
+            </div>
+          </button>
 
-          <div class="space-y-4">
+          <div id="accordion-content-1" class="accordion-content p-5 sm:p-6 pt-3 border-t border-slate-100 hidden">
+            <div class="space-y-4">
             <!-- University Name -->
             <div>
-              <label for="input-universityName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-universityName"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 University Name <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-universityName" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="Noakhali Science and Technology University">
+              <input type="text" id="input-universityName"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="Noakhali Science and Technology University">
             </div>
 
             <!-- Assignment Type & Course Code (2 cols) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="input-assignmentType" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="input-assignmentType"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Assignment Type <span class="text-rose-500">*</span>
                 </label>
                 <div class="relative">
-                  <input type="text" id="input-assignmentType" list="assignment-type-list" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. Assignment Report">
+                  <input type="text" id="input-assignmentType" list="assignment-type-list"
+                    class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                    placeholder="e.g. Assignment" value="Assignment">
                   <datalist id="assignment-type-list">
-                    <option value="Assignment Report"></option>
                     <option value="Assignment"></option>
+                    <option value="Assignment Report"></option>
                     <option value="Lab Report"></option>
                     <option value="Project Report"></option>
                     <option value="Term Paper"></option>
@@ -229,33 +353,43 @@
               </div>
 
               <div>
-                <label for="input-courseCode" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="input-courseCode"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Course Code <span class="text-rose-500">*</span>
                 </label>
-                <input type="text" id="input-courseCode" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. SE 3204">
+                <input type="text" id="input-courseCode"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                  placeholder="e.g. SE 3204">
               </div>
             </div>
 
             <!-- Course Title -->
             <div>
-              <label for="input-courseTitle" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-courseTitle"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Course Title <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-courseTitle" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. Software Metrics Lab">
+              <input type="text" id="input-courseTitle"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="e.g. Software Metrics Lab">
             </div>
 
             <!-- Assignment Topic -->
             <div>
-              <label for="input-assignmentTopic" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-assignmentTopic"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Assignment Topic / Title <span class="text-rose-500">*</span>
               </label>
-              <textarea id="input-assignmentTopic" rows="3" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900 leading-snug" placeholder="Enter assignment or project topic title..."></textarea>
+              <textarea id="input-assignmentTopic" rows="3"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900 leading-snug"
+                placeholder="Enter assignment or project topic title..."></textarea>
             </div>
 
             <!-- Submission Date -->
             <div>
               <div class="flex items-center justify-between mb-1">
-                <label for="input-submissionDate" class="block text-xs font-bold text-slate-700 uppercase tracking-wider">
+                <label for="input-submissionDate"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider">
                   Submission Date <span class="text-rose-500">*</span>
                 </label>
                 <div class="flex items-center gap-1.5 text-xs text-blue-600">
@@ -264,61 +398,95 @@
                   <button type="button" id="btn-date-tomorrow" class="hover:underline font-semibold">Tomorrow</button>
                 </div>
               </div>
-              <input type="text" id="input-submissionDate" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. 19 November 2026">
+              <input type="text" id="input-submissionDate"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="e.g. 16 December, 2026">
+            </div>
             </div>
           </div>
         </div>
 
         <!-- Card 2: Student Information ("Submitted by") -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6 transition-all hover:shadow-md">
-          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-            <h3 class="text-base font-bold text-nstu-deep flex items-center gap-2">
-              <i data-lucide="user" class="w-4 h-4 text-blue-600"></i>
-              <span>Student Information</span>
-            </h3>
-            <span class="text-xs text-slate-400 font-medium">Left Column</span>
-          </div>
+        <div class="accordion-card bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all hover:shadow-md">
+          <button type="button" class="accordion-header w-full flex items-center justify-between p-4 sm:p-5 text-left transition-colors hover:bg-slate-50/80 cursor-pointer" aria-expanded="false" data-target="accordion-content-2">
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center flex-shrink-0 border border-blue-100 shadow-2xs">
+                <i data-lucide="user" class="w-5 h-5"></i>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-2">
+                  <span class="text-sm sm:text-base font-bold text-nstu-deep">Student Information</span>
+                  <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 hidden sm:inline-block">Submitted by</span>
+                </div>
+                <p class="text-xs text-slate-500 truncate mt-0.5">Student Name, ID, Session & Department</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5 flex-shrink-0 ml-2">
+              <span class="accordion-status text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100 hidden sm:inline-block">
+                Click to Edit
+              </span>
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 bg-slate-50 border border-slate-200/80">
+                <i data-lucide="chevron-down" class="accordion-chevron w-4 h-4 transition-transform duration-200"></i>
+              </div>
+            </div>
+          </button>
 
-          <div class="space-y-4">
+          <div id="accordion-content-2" class="accordion-content p-5 sm:p-6 pt-3 border-t border-slate-100 hidden">
+            <div class="space-y-4">
             <!-- Header Label for Left Column (Editable!) -->
             <div>
-              <label for="input-submittedByLabel" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                Column Header Title <span class="text-xs font-normal text-slate-400 lowercase">(editable header label)</span>
+              <label for="input-submittedByLabel"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                Column Header Title <span class="text-xs font-normal text-slate-400 lowercase">(editable header
+                  label)</span>
               </label>
-              <input type="text" id="input-submittedByLabel" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-bold text-nstu-navy bg-blue-50/40" placeholder="Submitted by" value="Submitted by">
+              <input type="text" id="input-submittedByLabel"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-bold text-nstu-navy bg-blue-50/40"
+                placeholder="Submitted by" value="Submitted by">
             </div>
 
             <!-- Student Name -->
             <div>
-              <label for="input-studentName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-studentName"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Student Name <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-studentName" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-semibold text-slate-900" placeholder="e.g. Mahmodul Hasan">
+              <input type="text" id="input-studentName"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-semibold text-slate-900"
+                placeholder="e.g. Mohammad Rahim">
             </div>
 
             <!-- Student ID & Session (2 cols) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="input-studentId" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="input-studentId"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Student ID / Roll <span class="text-rose-500">*</span>
                 </label>
-                <input type="text" id="input-studentId" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. ASH2325015M">
+                <input type="text" id="input-studentId"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                  placeholder="e.g. ASH2125055M">
               </div>
 
               <div>
                 <label for="input-session" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Session <span class="text-rose-500">*</span>
                 </label>
-                <input type="text" id="input-session" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. 2022-23">
+                <input type="text" id="input-session"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                  placeholder="e.g. 2021-22">
               </div>
             </div>
 
             <!-- Student Department -->
             <div>
-              <label for="input-department" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-department"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Student Department / Institute <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-department" list="department-list" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. Institute of Information Technology">
+              <input type="text" id="input-department" list="department-list"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="e.g. Institute of Information Technology">
               <datalist id="department-list">
                 <option value="Institute of Information Technology"></option>
                 <option value="Computer Science and Telecommunication Engineering"></option>
@@ -339,100 +507,116 @@
 
             <!-- Student University Name -->
             <div>
-              <label for="input-studentUniversity" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-studentUniversity"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 University Name
               </label>
-              <input type="text" id="input-studentUniversity" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="Noakhali Science and Technology University">
+              <input type="text" id="input-studentUniversity"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="Noakhali Science and Technology University">
+            </div>
             </div>
           </div>
         </div>
 
-        <!-- Card 3: Teacher Information ("Supervised by") -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6 transition-all hover:shadow-md">
-          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-            <h3 class="text-base font-bold text-nstu-deep flex items-center gap-2">
-              <i data-lucide="graduation-cap" class="w-4 h-4 text-blue-600"></i>
-              <span>Teacher Information</span>
-            </h3>
-            <span class="text-xs text-slate-400 font-medium">Right Column</span>
-          </div>
-
-          <div class="space-y-4">
-            <!-- Header Label for Right Column (Editable!) -->
-            <div>
-              <label for="input-supervisedByLabel" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                Column Header Title <span class="text-xs font-normal text-slate-400 lowercase">(editable header label)</span>
-              </label>
-              <input type="text" id="input-supervisedByLabel" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-bold text-nstu-navy bg-blue-50/40" placeholder="Supervised by" value="Supervised by">
-            </div>
-
-            <!-- NSTU Faculty Directory Auto-Fill Widget -->
-            <div class="bg-gradient-to-br from-blue-50/90 via-indigo-50/50 to-slate-50 border border-blue-200/90 rounded-xl p-4 shadow-2xs">
-              <div class="flex items-center justify-between mb-2">
+        <!-- Card 3: Teacher Information ("Submitted to") -->
+        <div class="accordion-card bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all hover:shadow-md">
+          <button type="button" class="accordion-header w-full flex items-center justify-between p-4 sm:p-5 text-left transition-colors hover:bg-slate-50/80 cursor-pointer" aria-expanded="false" data-target="accordion-content-3">
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center flex-shrink-0 border border-blue-100 shadow-2xs">
+                <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+              </div>
+              <div class="min-w-0">
                 <div class="flex items-center gap-2">
-                  <i data-lucide="sparkles" class="w-4 h-4 text-blue-600"></i>
-                  <span class="text-xs font-bold text-nstu-navy uppercase tracking-wider">Select Teacher from NSTU Directory</span>
+                  <span class="text-sm sm:text-base font-bold text-nstu-deep">Teacher Information</span>
+                  <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 hidden sm:inline-block">Submitted to</span>
                 </div>
-                <span class="text-[10px] font-bold text-blue-700 bg-blue-100 px-2 py-0.5 rounded-full border border-blue-200">335+ Verified</span>
-              </div>
-              <p class="text-xs text-slate-600 mb-3">
-                Select your teacher from the dropdown list to auto-fill Designation, Department & University automatically.
-              </p>
-
-              <div class="space-y-3">
-                <!-- 1. Department Filter (Optional) -->
-                <div>
-                  <label for="select-teacher-dept" class="block text-xs font-semibold text-slate-700 mb-1 flex items-center justify-between">
-                    <span>Filter by Department / Institute</span>
-                    <span class="text-[11px] text-slate-400 font-normal">Optional</span>
-                  </label>
-                  <select id="select-teacher-dept" class="w-full text-xs font-semibold rounded-lg border border-slate-300 px-3 py-2 bg-white text-slate-800 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all cursor-pointer shadow-2xs">
-                    <option value="">-- All Departments & Institutes --</option>
-                  </select>
-                </div>
-
-                <!-- 2. Teacher Name Dropdown (ACTIVE ON LOAD, Grouped by Department) -->
-                <div>
-                  <label for="select-teacher-name" class="block text-xs font-bold text-slate-800 mb-1 flex items-center justify-between">
-                    <span class="flex items-center gap-1.5 text-nstu-navy">
-                      <i data-lucide="user-check" class="w-3.5 h-3.5 text-blue-600"></i>
-                      <span>Select Teacher's Name</span>
-                    </span>
-                    <span id="teacher-count-badge" class="text-[10px] font-semibold text-blue-700 bg-blue-100/80 px-2 py-0.5 rounded-full">NSTU Faculty</span>
-                  </label>
-                  <select id="select-teacher-name" class="w-full text-sm font-semibold rounded-lg border-2 border-blue-400/80 px-3.5 py-2.5 bg-white text-slate-900 focus:border-blue-600 focus:ring-2 focus:ring-blue-200 transition-all cursor-pointer shadow-sm">
-                    <option value="">-- Click to Choose Teacher from List --</option>
-                  </select>
-                </div>
-
-                <!-- Quick Search Input Across All Teachers -->
-                <div class="relative pt-1 border-t border-blue-200/60">
-                  <div class="flex items-center gap-2 px-2.5 py-1.5 bg-white rounded-lg border border-slate-200 focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-100 transition-all">
-                    <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 shrink-0"></i>
-                    <input type="text" id="input-teacher-search-quick" placeholder="Or type teacher's name to search instantly..." class="w-full text-xs bg-transparent border-none p-0 focus:outline-none focus:ring-0 text-slate-800 placeholder-slate-400">
-                  </div>
-                  <!-- Quick Search Results Floating Popup -->
-                  <div id="quick-search-dropdown" class="hidden absolute left-0 right-0 top-full mt-1 z-30 max-h-48 overflow-y-auto bg-white rounded-xl border border-slate-200 shadow-xl divide-y divide-slate-100 text-xs">
-                  </div>
-                </div>
+                <p class="text-xs text-slate-500 truncate mt-0.5">Faculty Directory, Teacher Name & Designation</p>
               </div>
             </div>
+            <div class="flex items-center gap-2.5 flex-shrink-0 ml-2">
+              <span class="accordion-status text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100 hidden sm:inline-block">
+                Click to Edit
+              </span>
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 bg-slate-50 border border-slate-200/80">
+                <i data-lucide="chevron-down" class="accordion-chevron w-4 h-4 transition-transform duration-200"></i>
+              </div>
+            </div>
+          </button>
+
+          <div id="accordion-content-3" class="accordion-content p-5 sm:p-6 pt-3 border-t border-slate-100 hidden">
+            <div class="space-y-4">
+              <!-- Header Label for Right Column (Editable! Default "Submitted to" only) -->
+              <div>
+                <label for="input-supervisedByLabel"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                  Column Header Title <span class="text-xs font-normal text-slate-400 lowercase">(editable header
+                    label)</span>
+                </label>
+                <input type="text" id="input-supervisedByLabel"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-bold text-nstu-navy bg-blue-50/40"
+                  placeholder="Submitted to" value="Submitted to">
+              </div>
+
+              <!-- NSTU Faculty Directory: Two Dropdowns (1. Dept -> 2. Teacher) -->
+              <div
+                class="bg-gradient-to-br from-blue-50/90 via-indigo-50/50 to-slate-50 border border-blue-200/90 rounded-xl p-4 shadow-2xs space-y-3">
+                <div class="flex items-center justify-between mb-1">
+                  <div class="flex items-center gap-2">
+                    <i data-lucide="sparkles" class="w-4 h-4 text-blue-600"></i>
+                    <span class="text-xs font-bold text-nstu-navy uppercase tracking-wider">Select Teacher from NSTU Directory</span>
+                  </div>
+                  <span id="teacher-count-badge"
+                    class="text-[10px] font-bold text-blue-700 bg-blue-100 px-2 py-0.5 rounded-full border border-blue-200">335+ Verified</span>
+                </div>
+                <p id="nstu-directory-hint" class="text-xs text-slate-600">
+                  First select a department, then select the teacher from the list below.
+                </p>
+
+                <!-- 1. Department Dropdown -->
+                <div>
+                  <label for="select-teacher-dept" class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1">
+                    1. Select Department / Institute
+                  </label>
+                  <select id="select-teacher-dept"
+                    class="w-full text-sm font-semibold rounded-lg border border-slate-300 px-3.5 py-2.5 bg-white text-slate-900 focus:border-blue-600 focus:ring-2 focus:ring-blue-200 transition-all cursor-pointer shadow-sm">
+                    <option value="">-- Choose Department / Institute --</option>
+                  </select>
+                </div>
+
+                <!-- 2. Teacher Dropdown -->
+                <div>
+                  <label for="select-teacher-name" class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1">
+                    2. Select Teacher Name
+                  </label>
+                  <select id="select-teacher-name"
+                    class="w-full text-sm font-semibold rounded-lg border border-slate-300 px-3.5 py-2.5 bg-white text-slate-900 focus:border-blue-600 focus:ring-2 focus:ring-blue-200 transition-all cursor-pointer shadow-sm" disabled>
+                    <option value="">-- First Select Department Above --</option>
+                  </select>
+                </div>
+              </div>
 
             <!-- Manual Editable Fields with Auto-Fill capability -->
             <!-- Teacher Name -->
             <div>
-              <label for="input-teacherName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-teacherName"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Teacher's Name <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-teacherName" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-semibold text-slate-900" placeholder="e.g. Md Hasan Imam">
+              <input type="text" id="input-teacherName"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-semibold text-slate-900"
+                placeholder="e.g. Md Hasan Imam">
             </div>
 
             <!-- Teacher Designation -->
             <div>
-              <label for="input-teacherDesignation" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-teacherDesignation"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Teacher's Designation <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-teacherDesignation" list="designation-list" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. Assistant Professor">
+              <input type="text" id="input-teacherDesignation" list="designation-list"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="e.g. Assistant Professor">
               <datalist id="designation-list">
                 <option value="Lecturer"></option>
                 <option value="Assistant Professor"></option>
@@ -446,33 +630,56 @@
 
             <!-- Teacher Department -->
             <div>
-              <label for="input-teacherDepartment" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-teacherDepartment"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 Teacher's Department / Institute <span class="text-rose-500">*</span>
               </label>
-              <input type="text" id="input-teacherDepartment" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="e.g. Institute of Information Technology">
+              <input type="text" id="input-teacherDepartment"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="e.g. Institute of Information Technology">
             </div>
 
             <!-- Teacher University Name -->
             <div>
-              <label for="input-teacherUniversity" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <label for="input-teacherUniversity"
+                class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 University Name
               </label>
-              <input type="text" id="input-teacherUniversity" class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900" placeholder="Noakhali Science and Technology University">
+              <input type="text" id="input-teacherUniversity"
+                class="w-full text-sm rounded-lg border border-slate-300 px-3.5 py-2.5 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium text-slate-900"
+                placeholder="Noakhali Science and Technology University">
+            </div>
             </div>
           </div>
         </div>
 
         <!-- Card 4: Logo Management -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6 transition-all hover:shadow-md">
-          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-            <h3 class="text-base font-bold text-nstu-deep flex items-center gap-2">
-              <i data-lucide="image" class="w-4 h-4 text-blue-600"></i>
-              <span>Logo Management</span>
-            </h3>
-            <span class="text-xs text-slate-400 font-medium">Authentic Logos</span>
-          </div>
+        <div class="accordion-card bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all hover:shadow-md">
+          <button type="button" class="accordion-header w-full flex items-center justify-between p-4 sm:p-5 text-left transition-colors hover:bg-slate-50/80 cursor-pointer" aria-expanded="false" data-target="accordion-content-4">
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center flex-shrink-0 border border-blue-100 shadow-2xs">
+                <i data-lucide="image" class="w-5 h-5"></i>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-2">
+                  <span class="text-sm sm:text-base font-bold text-nstu-deep">Logo Management</span>
+                  <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 hidden sm:inline-block">Authentic Logos</span>
+                </div>
+                <p class="text-xs text-slate-500 truncate mt-0.5">NSTU & Dept Logos, Sizes, Sliders & Gap</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5 flex-shrink-0 ml-2">
+              <span class="accordion-status text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100 hidden sm:inline-block">
+                Click to Edit
+              </span>
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 bg-slate-50 border border-slate-200/80">
+                <i data-lucide="chevron-down" class="accordion-chevron w-4 h-4 transition-transform duration-200"></i>
+              </div>
+            </div>
+          </button>
 
-          <div class="space-y-5">
+          <div id="accordion-content-4" class="accordion-content p-5 sm:p-6 pt-3 border-t border-slate-100 hidden">
+            <div class="space-y-5">
             <!-- Toggle: Dual Logos vs Single NSTU Logo -->
             <div class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200">
               <div class="flex items-center gap-2.5">
@@ -484,7 +691,9 @@
               </div>
               <label class="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" id="toggle-dept-logo" class="sr-only peer" checked>
-                <div class="w-11 h-6 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nstu-navy"></div>
+                <div
+                  class="w-11 h-6 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-nstu-navy">
+                </div>
               </label>
             </div>
 
@@ -495,40 +704,53 @@
                 <div>
                   <div class="text-xs font-bold text-slate-700 mb-2 flex items-center justify-between">
                     <span>NSTU Crest (Left)</span>
-                    <span class="text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded">Default Active</span>
+                    <span class="text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded">Default
+                      Active</span>
                   </div>
-                  <div class="h-24 flex items-center justify-center bg-white rounded-lg border border-dashed border-slate-300 p-2 mb-3">
-                    <img id="thumb-nstu-logo" src="assets/logos/nstu-logo.png" alt="NSTU Logo" class="max-h-full max-w-full object-contain">
+                  <div
+                    class="h-24 flex items-center justify-center bg-white rounded-lg border border-dashed border-slate-300 p-2 mb-3">
+                    <img id="thumb-nstu-logo" src="assets/logos/nstu-logo.png" alt="NSTU Logo"
+                      class="max-h-full max-w-full object-contain">
                   </div>
                 </div>
                 <div class="flex items-center gap-2">
                   <input type="file" id="file-nstu-logo" accept="image/*" class="hidden">
-                  <button type="button" id="btn-upload-nstu-logo" class="flex-1 text-center text-xs font-semibold py-1.5 px-2 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 cursor-pointer transition-colors shadow-2xs flex items-center justify-center gap-1">
+                  <button type="button" id="btn-upload-nstu-logo"
+                    class="flex-1 text-center text-xs font-semibold py-1.5 px-2 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 cursor-pointer transition-colors shadow-2xs flex items-center justify-center gap-1">
                     <i data-lucide="upload" class="w-3 h-3"></i> Replace
                   </button>
-                  <button type="button" id="btn-restore-nstu-logo" class="text-xs text-slate-500 hover:text-blue-600 p-1.5 rounded-lg hover:bg-slate-200 transition-colors" title="Restore default NSTU logo">
+                  <button type="button" id="btn-restore-nstu-logo"
+                    class="text-xs text-slate-500 hover:text-blue-600 p-1.5 rounded-lg hover:bg-slate-200 transition-colors"
+                    title="Restore default NSTU logo">
                     <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
                   </button>
                 </div>
               </div>
 
               <!-- Department / IIT Logo Box -->
-              <div id="dept-logo-upload-box" class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 flex flex-col justify-between">
+              <div id="dept-logo-upload-box"
+                class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 flex flex-col justify-between">
                 <div>
                   <div class="text-xs font-bold text-slate-700 mb-2 flex items-center justify-between">
                     <span>Department Logo (Right)</span>
-                    <span class="text-[10px] text-blue-700 font-semibold bg-blue-50 px-1.5 py-0.5 rounded">IIT NSTU</span>
+                    <span class="text-[10px] text-blue-700 font-semibold bg-blue-50 px-1.5 py-0.5 rounded">IIT
+                      NSTU</span>
                   </div>
-                  <div class="h-24 flex items-center justify-center bg-white rounded-lg border border-dashed border-slate-300 p-2 mb-3">
-                    <img id="thumb-dept-logo" src="assets/logos/iit-logo.png" alt="Department Logo" class="max-h-full max-w-full object-contain">
+                  <div
+                    class="h-24 flex items-center justify-center bg-white rounded-lg border border-dashed border-slate-300 p-2 mb-3">
+                    <img id="thumb-dept-logo" src="assets/logos/iit-logo.png" alt="Department Logo"
+                      class="max-h-full max-w-full object-contain">
                   </div>
                 </div>
                 <div class="flex items-center gap-2">
                   <input type="file" id="file-dept-logo" accept="image/*" class="hidden">
-                  <button type="button" id="btn-upload-dept-logo" class="flex-1 text-center text-xs font-semibold py-1.5 px-2 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 cursor-pointer transition-colors shadow-2xs flex items-center justify-center gap-1">
+                  <button type="button" id="btn-upload-dept-logo"
+                    class="flex-1 text-center text-xs font-semibold py-1.5 px-2 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 cursor-pointer transition-colors shadow-2xs flex items-center justify-center gap-1">
                     <i data-lucide="upload" class="w-3 h-3"></i> Replace
                   </button>
-                  <button type="button" id="btn-restore-dept-logo" class="text-xs text-slate-500 hover:text-blue-600 p-1.5 rounded-lg hover:bg-slate-200 transition-colors" title="Restore default IIT logo">
+                  <button type="button" id="btn-restore-dept-logo"
+                    class="text-xs text-slate-500 hover:text-blue-600 p-1.5 rounded-lg hover:bg-slate-200 transition-colors"
+                    title="Restore default IIT logo">
                     <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
                   </button>
                 </div>
@@ -537,18 +759,25 @@
 
             <!-- Master Logo Size Adjustment Slider (Both Logos) -->
             <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-              <div class="flex items-center justify-between text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+              <div
+                class="flex items-center justify-between text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
                 <span class="flex items-center gap-1.5 text-nstu-navy">
                   <i data-lucide="scaling" class="w-4 h-4 text-blue-600"></i>
                   <span>Master Logo Size (Both Logos)</span>
                 </span>
-                <span id="val-logo-size-master" class="text-blue-700 font-mono font-bold text-sm bg-blue-50 px-2 py-0.5 rounded border border-blue-100">110px</span>
+                <span id="val-logo-size-master"
+                  class="text-blue-700 font-mono font-bold text-sm bg-blue-50 px-2 py-0.5 rounded border border-blue-100">138px</span>
               </div>
-              <input type="range" id="slider-logo-size-master" min="60" max="160" value="110" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+              <input type="range" id="slider-logo-size-master" min="60" max="160" value="138"
+                class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
               <div class="flex items-center justify-between mt-2.5 text-xs text-slate-600">
-                <button type="button" class="btn-quick-logo-size hover:text-blue-700 hover:underline font-medium" data-size="85">Small (85px)</button>
-                <button type="button" class="btn-quick-logo-size hover:text-blue-700 hover:underline font-bold text-blue-700" data-size="110">Default (110px)</button>
-                <button type="button" class="btn-quick-logo-size hover:text-blue-700 hover:underline font-medium" data-size="135">Large (135px)</button>
+                <button type="button" class="btn-quick-logo-size hover:text-blue-700 hover:underline font-medium"
+                  data-size="85">Small (85px)</button>
+                <button type="button"
+                  class="btn-quick-logo-size hover:text-blue-700 hover:underline font-bold text-blue-700"
+                  data-size="110">Default (110px)</button>
+                <button type="button" class="btn-quick-logo-size hover:text-blue-700 hover:underline font-medium"
+                  data-size="135">Large (135px)</button>
               </div>
             </div>
 
@@ -556,7 +785,8 @@
             <div class="space-y-4">
               <!-- NSTU Logo (Left) Controls -->
               <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-                <div class="flex items-center justify-between text-xs font-bold text-slate-800 uppercase tracking-wider mb-3">
+                <div
+                  class="flex items-center justify-between text-xs font-bold text-slate-800 uppercase tracking-wider mb-3">
                   <span class="flex items-center gap-1.5 text-nstu-navy">
                     <i data-lucide="image" class="w-4 h-4 text-emerald-600"></i>
                     <span>1. NSTU Crest (Left Logo)</span>
@@ -569,34 +799,43 @@
                   <div>
                     <div class="flex items-center justify-between text-xs text-slate-700 mb-1.5">
                       <span class="font-semibold">Logo Height:</span>
-                      <span id="val-nstu-logo-size" class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">110px</span>
+                      <span id="val-nstu-logo-size"
+                        class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">159px</span>
                     </div>
-                    <input type="range" id="slider-nstu-logo-size" min="60" max="160" value="110" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                    <input type="range" id="slider-nstu-logo-size" min="60" max="160" value="159"
+                      class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                   </div>
 
                   <!-- NSTU Logo Horizontal Position -->
                   <div>
                     <div class="flex items-center justify-between text-xs text-slate-700 mb-1.5">
                       <span class="font-semibold">Horizontal (X):</span>
-                      <span id="val-nstu-logo-x" class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">0px (Center)</span>
+                      <span id="val-nstu-logo-x"
+                        class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">-10px
+                        (Left)</span>
                     </div>
-                    <input type="range" id="slider-nstu-logo-x" min="-80" max="80" value="0" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                    <input type="range" id="slider-nstu-logo-x" min="-80" max="80" value="-10"
+                      class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                   </div>
 
                   <!-- NSTU Logo Vertical Position -->
                   <div>
                     <div class="flex items-center justify-between text-xs text-slate-700 mb-1.5">
                       <span class="font-semibold">Vertical (Y):</span>
-                      <span id="val-nstu-logo-y" class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">0px (Level)</span>
+                      <span id="val-nstu-logo-y"
+                        class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">-19px
+                        (Up)</span>
                     </div>
-                    <input type="range" id="slider-nstu-logo-y" min="-50" max="50" value="0" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                    <input type="range" id="slider-nstu-logo-y" min="-50" max="50" value="-19"
+                      class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                   </div>
                 </div>
               </div>
 
               <!-- Department Logo (Right) Controls -->
               <div id="dept-logo-controls-box" class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-                <div class="flex items-center justify-between text-xs font-bold text-slate-800 uppercase tracking-wider mb-3">
+                <div
+                  class="flex items-center justify-between text-xs font-bold text-slate-800 uppercase tracking-wider mb-3">
                   <span class="flex items-center gap-1.5 text-nstu-navy">
                     <i data-lucide="image" class="w-4 h-4 text-blue-600"></i>
                     <span>2. Department Logo (Right Logo)</span>
@@ -609,67 +848,97 @@
                   <div>
                     <div class="flex items-center justify-between text-xs text-slate-700 mb-1.5">
                       <span class="font-semibold">Logo Height:</span>
-                      <span id="val-dept-logo-size" class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">110px</span>
+                      <span id="val-dept-logo-size"
+                        class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">138px</span>
                     </div>
-                    <input type="range" id="slider-dept-logo-size" min="60" max="160" value="110" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                    <input type="range" id="slider-dept-logo-size" min="60" max="160" value="138"
+                      class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                   </div>
 
                   <!-- Dept Logo Horizontal Position -->
                   <div>
                     <div class="flex items-center justify-between text-xs text-slate-700 mb-1.5">
                       <span class="font-semibold">Horizontal (X):</span>
-                      <span id="val-dept-logo-x" class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">0px (Center)</span>
+                      <span id="val-dept-logo-x"
+                        class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">0px
+                        (Center)</span>
                     </div>
-                    <input type="range" id="slider-dept-logo-x" min="-80" max="80" value="0" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                    <input type="range" id="slider-dept-logo-x" min="-80" max="80" value="0"
+                      class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                   </div>
 
                   <!-- Dept Logo Vertical Position -->
                   <div>
                     <div class="flex items-center justify-between text-xs text-slate-700 mb-1.5">
                       <span class="font-semibold">Vertical (Y):</span>
-                      <span id="val-dept-logo-y" class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">0px (Level)</span>
+                      <span id="val-dept-logo-y"
+                        class="text-blue-700 font-mono font-bold text-xs bg-blue-50 px-2 py-0.5 rounded border border-blue-100">0px
+                        (Level)</span>
                     </div>
-                    <input type="range" id="slider-dept-logo-y" min="-50" max="50" value="0" class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                    <input type="range" id="slider-dept-logo-y" min="-50" max="50" value="0"
+                      class="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                   </div>
                 </div>
               </div>
 
               <!-- Logo Gap & Reset Bar -->
-              <div class="flex flex-col sm:flex-row items-center justify-between gap-3 p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-xs">
+              <div
+                class="flex flex-col sm:flex-row items-center justify-between gap-3 p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-xs">
                 <div class="w-full sm:w-3/5">
                   <div class="flex items-center justify-between text-slate-700 mb-1">
                     <span class="font-semibold">Spacing Between Logos (Gap):</span>
-                    <span id="val-logos-gap" class="text-blue-700 font-mono font-bold">40px</span>
+                    <span id="val-logos-gap" class="text-blue-700 font-mono font-bold">66px</span>
                   </div>
-                  <input type="range" id="slider-logos-gap" min="10" max="100" value="40" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+                  <input type="range" id="slider-logos-gap" min="10" max="100" value="66"
+                    class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
                 </div>
-                <button type="button" id="btn-reset-logo-pos" class="w-full sm:w-auto px-3.5 py-2 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 text-slate-700 font-bold transition-all flex items-center justify-center gap-1.5 shadow-2xs">
+                <button type="button" id="btn-reset-logo-pos"
+                  class="w-full sm:w-auto px-3.5 py-2 bg-white border border-slate-300 rounded-lg hover:bg-slate-100 text-slate-700 font-bold transition-all flex items-center justify-center gap-1.5 shadow-2xs">
                   <i data-lucide="rotate-ccw" class="w-3.5 h-3.5 text-slate-500"></i>
                   <span>Reset Alignment</span>
                 </button>
               </div>
             </div>
+            </div>
           </div>
         </div>
 
         <!-- Card 5: Customization Panel -->
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6 transition-all hover:shadow-md">
-          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
-            <h3 class="text-base font-bold text-nstu-deep flex items-center gap-2">
-              <i data-lucide="sliders" class="w-4 h-4 text-blue-600"></i>
-              <span>Design Customization</span>
-            </h3>
-            <span class="text-xs text-slate-400 font-medium">Fine Tuning</span>
-          </div>
+        <div class="accordion-card bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all hover:shadow-md">
+          <button type="button" class="accordion-header w-full flex items-center justify-between p-4 sm:p-5 text-left transition-colors hover:bg-slate-50/80 cursor-pointer" aria-expanded="false" data-target="accordion-content-5">
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center flex-shrink-0 border border-blue-100 shadow-2xs">
+                <i data-lucide="sliders" class="w-5 h-5"></i>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-2">
+                  <span class="text-sm sm:text-base font-bold text-nstu-deep">Design Customization</span>
+                  <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 hidden sm:inline-block">Fine Tuning</span>
+                </div>
+                <p class="text-xs text-slate-500 truncate mt-0.5">Font, Colors, Margins, Borders & Table Width</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2.5 flex-shrink-0 ml-2">
+              <span class="accordion-status text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100 hidden sm:inline-block">
+                Click to Edit
+              </span>
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 bg-slate-50 border border-slate-200/80">
+                <i data-lucide="chevron-down" class="accordion-chevron w-4 h-4 transition-transform duration-200"></i>
+              </div>
+            </div>
+          </button>
 
-          <div class="space-y-4">
+          <div id="accordion-content-5" class="accordion-content p-5 sm:p-6 pt-3 border-t border-slate-100 hidden">
+            <div class="space-y-4">
             <!-- Font Family & Margins (2 cols) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="select-font-family" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="select-font-family"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Typography / Font
                 </label>
-                <select id="select-font-family" class="w-full text-sm rounded-lg border border-slate-300 px-3 py-2 bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
+                <select id="select-font-family"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3 py-2 bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
                   <option value="Times New Roman">Times New Roman (Standard)</option>
                   <option value="Georgia">Georgia (Serif)</option>
                   <option value="Garamond">Garamond (Academic)</option>
@@ -679,10 +948,12 @@
               </div>
 
               <div>
-                <label for="select-margin-size" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="select-margin-size"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Page Margins
                 </label>
-                <select id="select-margin-size" class="w-full text-sm rounded-lg border border-slate-300 px-3 py-2 bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
+                <select id="select-margin-size"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3 py-2 bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
                   <option value="normal">Normal (1.0 inch / 25mm)</option>
                   <option value="compact">Compact (0.75 inch / 18mm)</option>
                   <option value="wide">Wide (1.25 inch / 30mm)</option>
@@ -693,10 +964,12 @@
             <!-- Page Border & Table Header Color (2 cols) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label for="select-page-border" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="select-page-border"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   A4 Page Border
                 </label>
-                <select id="select-page-border" class="w-full text-sm rounded-lg border border-slate-300 px-3 py-2 bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
+                <select id="select-page-border"
+                  class="w-full text-sm rounded-lg border border-slate-300 px-3 py-2 bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-100">
                   <option value="none">None (Standard Modern)</option>
                   <option value="double">Academic Double Border</option>
                   <option value="single">Single Line Border</option>
@@ -704,17 +977,29 @@
               </div>
 
               <div>
-                <label for="input-header-color" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                <label for="input-header-color"
+                  class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                   Table Header Color
                 </label>
                 <div class="flex items-center gap-2">
-                  <input type="color" id="input-header-color" value="#002060" class="h-9 w-12 rounded border border-slate-300 cursor-pointer p-0.5">
+                  <input type="color" id="input-header-color" value="#002060"
+                    class="h-9 w-12 rounded border border-slate-300 cursor-pointer p-0.5">
                   <div class="flex items-center gap-1">
-                    <button type="button" class="btn-color-preset w-6 h-6 rounded-full bg-[#002060] border border-slate-300 shadow-2xs" data-color="#002060" title="Classic NSTU Navy"></button>
-                    <button type="button" class="btn-color-preset w-6 h-6 rounded-full bg-[#1E3A8A] border border-slate-300 shadow-2xs" data-color="#1E3A8A" title="Royal Blue"></button>
-                    <button type="button" class="btn-color-preset w-6 h-6 rounded-full bg-[#0A1D30] border border-slate-300 shadow-2xs" data-color="#0A1D30" title="Deep Navy"></button>
-                    <button type="button" class="btn-color-preset w-6 h-6 rounded-full bg-[#800000] border border-slate-300 shadow-2xs" data-color="#800000" title="Academic Maroon"></button>
-                    <button type="button" class="btn-color-preset w-6 h-6 rounded-full bg-[#14532D] border border-slate-300 shadow-2xs" data-color="#14532D" title="Forest Green"></button>
+                    <button type="button"
+                      class="btn-color-preset w-6 h-6 rounded-full bg-[#002060] border border-slate-300 shadow-2xs"
+                      data-color="#002060" title="Classic NSTU Navy"></button>
+                    <button type="button"
+                      class="btn-color-preset w-6 h-6 rounded-full bg-[#1E3A8A] border border-slate-300 shadow-2xs"
+                      data-color="#1E3A8A" title="Royal Blue"></button>
+                    <button type="button"
+                      class="btn-color-preset w-6 h-6 rounded-full bg-[#0A1D30] border border-slate-300 shadow-2xs"
+                      data-color="#0A1D30" title="Deep Navy"></button>
+                    <button type="button"
+                      class="btn-color-preset w-6 h-6 rounded-full bg-[#800000] border border-slate-300 shadow-2xs"
+                      data-color="#800000" title="Academic Maroon"></button>
+                    <button type="button"
+                      class="btn-color-preset w-6 h-6 rounded-full bg-[#14532D] border border-slate-300 shadow-2xs"
+                      data-color="#14532D" title="Forest Green"></button>
                   </div>
                 </div>
               </div>
@@ -722,27 +1007,33 @@
 
             <!-- Logo Size Slider -->
             <div>
-              <div class="flex items-center justify-between text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <div
+                class="flex items-center justify-between text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 <span>Logo Height</span>
-                <span id="val-logo-size" class="text-blue-600 font-mono">105px</span>
+                <span id="val-logo-size" class="text-blue-600 font-mono">138px</span>
               </div>
-              <input type="range" id="slider-logo-size" min="60" max="140" value="105" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+              <input type="range" id="slider-logo-size" min="60" max="160" value="138"
+                class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
             </div>
 
             <!-- Table Width Slider -->
             <div>
-              <div class="flex items-center justify-between text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+              <div
+                class="flex items-center justify-between text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                 <span>Table Width</span>
                 <span id="val-table-width" class="text-blue-600 font-mono">100%</span>
               </div>
-              <input type="range" id="slider-table-width" min="80" max="100" value="100" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
+              <input type="range" id="slider-table-width" min="80" max="100" value="100"
+                class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-700">
             </div>
           </div>
         </div>
+      </div>
 
         <!-- Form Reset Bar -->
         <div class="flex items-center justify-between pt-2">
-          <button type="button" id="btn-reset-form" class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-rose-600 transition-colors">
+          <button type="button" id="btn-reset-form"
+            class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-rose-600 transition-colors">
             <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
             <span>Reset All to Default NSTU Sample</span>
           </button>
@@ -751,42 +1042,54 @@
       </div>
 
       <!-- ================= RIGHT COLUMN: LIVE A4 PREVIEW ================= -->
-      <div id="preview-wrapper" class="lg:col-span-6 lg:sticky lg:top-20 space-y-4">
+      <div id="preview-wrapper" class="lg:col-span-6 lg:h-full flex flex-col justify-between space-y-4 lg:sticky lg:top-20 overflow-hidden">
 
         <!-- Preview Top Control Bar -->
-        <div id="preview-header" class="flex flex-wrap items-center justify-between gap-3 p-3 bg-white rounded-xl border border-slate-200 shadow-sm no-print">
+        <div id="preview-header"
+          class="flex flex-wrap items-center justify-between gap-3 p-3 bg-white rounded-xl border border-slate-200 shadow-sm no-print flex-shrink-0">
           <div class="flex items-center gap-2">
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
+            <span
+              class="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
               A4 Portrait (210×297mm)
             </span>
           </div>
 
           <!-- Zoom & Scale Controls -->
           <div class="flex items-center gap-1 bg-slate-100 rounded-lg p-0.5 border border-slate-200">
-            <button type="button" id="btn-zoom-out" class="p-1 rounded text-slate-600 hover:bg-white hover:text-slate-900 transition-colors" title="Zoom Out (-)">
+            <button type="button" id="btn-zoom-out"
+              class="p-1 rounded text-slate-600 hover:bg-white hover:text-slate-900 transition-colors"
+              title="Zoom Out (-)">
               <i data-lucide="zoom-out" class="w-4 h-4"></i>
             </button>
-            <span id="zoom-percentage-label" class="text-xs font-mono font-bold text-slate-700 px-2 select-none">78%</span>
-            <button type="button" id="btn-zoom-in" class="p-1 rounded text-slate-600 hover:bg-white hover:text-slate-900 transition-colors" title="Zoom In (+)">
+            <span id="zoom-percentage-label"
+              class="text-xs font-mono font-bold text-slate-700 px-2 select-none">78%</span>
+            <button type="button" id="btn-zoom-in"
+              class="p-1 rounded text-slate-600 hover:bg-white hover:text-slate-900 transition-colors"
+              title="Zoom In (+)">
               <i data-lucide="zoom-in" class="w-4 h-4"></i>
             </button>
-            <button type="button" id="btn-zoom-reset" class="text-xs px-2 py-1 rounded text-slate-600 hover:bg-white transition-colors" title="Default 80%">
+            <button type="button" id="btn-zoom-reset"
+              class="text-xs px-2 py-1 rounded text-slate-600 hover:bg-white transition-colors" title="Default 80%">
               100%
             </button>
-            <button type="button" id="btn-zoom-fit" class="p-1 rounded text-slate-600 hover:bg-white hover:text-slate-900 transition-colors" title="Fit to Container Width">
+            <button type="button" id="btn-zoom-fit"
+              class="p-1 rounded text-slate-600 hover:bg-white hover:text-slate-900 transition-colors"
+              title="Fit to Container Width">
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i>
             </button>
           </div>
         </div>
 
-        <!-- Scrollable Sheet Container -->
-        <div class="overflow-x-auto overflow-y-visible py-4 flex justify-center bg-slate-200/60 rounded-2xl border border-slate-300/80 p-2 sm:p-4 shadow-inner min-h-[600px]">
-          
-          <div id="preview-zoom-container" class="preview-zoom-container">
-            
+        <!-- Scrollable Sheet Container with matching independent scroll -->
+        <div id="preview-scroll-container"
+          class="flex-1 overflow-x-auto overflow-y-auto py-4 flex justify-center bg-slate-200/60 rounded-2xl border border-slate-300/80 p-2 sm:p-4 shadow-inner custom-scrollbar min-h-0">
+
+          <div id="preview-zoom-container" class="preview-zoom-container my-auto">
+
             <!-- Real A4 Sheet (210mm x 297mm) -->
-            <div id="preview-sheet" class="a4-sheet font-times margin-normal flex flex-col justify-between min-h-[297mm]">
-              
+            <div id="preview-sheet"
+              class="a4-sheet font-times margin-normal flex flex-col justify-between min-h-[297mm]">
+
               <div>
                 <!-- 1. University Header -->
                 <div class="text-center pt-2 pb-2">
@@ -797,14 +1100,16 @@
 
                 <!-- 2. University and Department Logos (Independent Size & Horizontal Position) -->
                 <div id="pv-logos-container" class="flex items-center justify-center gap-10 mt-5 mb-8 overflow-visible">
-                  <img id="pv-nstu-logo" src="assets/logos/nstu-logo.png" alt="NSTU Logo" class="object-contain relative transition-all duration-75" style="height: 110px;">
-                  <img id="pv-dept-logo" src="assets/logos/iit-logo.png" alt="IIT Department Logo" class="object-contain relative transition-all duration-75" style="height: 110px;">
+                  <img id="pv-nstu-logo" src="assets/logos/nstu-logo.png" alt="NSTU Logo"
+                    class="object-contain relative transition-all duration-75" style="height: 110px;">
+                  <img id="pv-dept-logo" src="assets/logos/iit-logo.png" alt="IIT Department Logo"
+                    class="object-contain relative transition-all duration-75" style="height: 110px;">
                 </div>
 
                 <!-- 3. Assignment Type -->
                 <div class="text-center mt-3">
                   <p id="pv-assignment-type" class="text-[14pt] font-bold text-black leading-none">
-                    Assignment Report
+                    Assignment
                   </p>
                 </div>
 
@@ -817,7 +1122,8 @@
 
                 <!-- 5. Assignment Topic -->
                 <div class="text-center my-3 px-4">
-                  <h2 id="pv-assignment-topic" class="text-[19pt] font-bold text-black leading-snug max-w-2xl mx-auto break-words">
+                  <h2 id="pv-assignment-topic"
+                    class="text-[19pt] font-bold text-black leading-snug max-w-2xl mx-auto break-words">
                     Control Flow Graph (CFG) Construction and Cyclomatic Complexity Analysis on Water Sort Puzzle Game
                   </h2>
                 </div>
@@ -841,18 +1147,21 @@
                   <table id="pv-table" class="cover-table mx-auto w-full table-fixed">
                     <thead>
                       <tr>
-                        <th id="pv-th-submitted" class="pv-table-th w-1/2 text-center text-[14pt] font-bold text-white px-3 py-2.5">
+                        <th id="pv-th-submitted"
+                          class="pv-table-th w-1/2 text-center text-[14pt] font-bold text-white px-3 py-2.5">
                           Submitted by
                         </th>
-                        <th id="pv-th-supervised" class="pv-table-th w-1/2 text-center text-[14pt] font-bold text-white px-3 py-2.5">
-                          Supervised by
+                        <th id="pv-th-supervised"
+                          class="pv-table-th w-1/2 text-center text-[14pt] font-bold text-white px-3 py-2.5">
+                          Submitted to
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <!-- Column 1: Student Details (All bold 13.5pt, break-words so never overflows box) -->
-                        <td class="w-1/2 px-3.5 py-3 text-[13.5pt] font-bold leading-relaxed text-black break-words overflow-hidden">
+                        <td
+                          class="w-1/2 px-3.5 py-3 text-[13.5pt] font-bold leading-relaxed text-black break-words overflow-hidden">
                           <div id="pv-student-name" class="break-words">Mahmodul Hasan</div>
                           <div id="pv-student-id" class="break-words">ID: ASH2325015M</div>
                           <div id="pv-student-session" class="break-words">Session: 2022-23</div>
@@ -861,7 +1170,8 @@
                         </td>
 
                         <!-- Column 2: Teacher Details (All bold 13.5pt, break-words so never overflows box) -->
-                        <td class="w-1/2 px-3.5 py-3 text-[13.5pt] font-bold leading-relaxed text-black break-words overflow-hidden">
+                        <td
+                          class="w-1/2 px-3.5 py-3 text-[13.5pt] font-bold leading-relaxed text-black break-words overflow-hidden">
                           <div id="pv-teacher-name" class="break-words">Md Hasan Imam</div>
                           <div id="pv-teacher-desig" class="break-words">Assistant Professor</div>
                           <div id="pv-teacher-dept" class="break-words">Institute of Information Technology</div>
@@ -896,19 +1206,22 @@
 
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <!-- Download PDF -->
-            <button type="button" id="btn-download-pdf" class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-sm shadow-md shadow-rose-600/20 hover:shadow-lg transition-all active:scale-95 cursor-pointer">
+            <button type="button" id="btn-download-pdf"
+              class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-sm shadow-md shadow-rose-600/20 hover:shadow-lg transition-all active:scale-95 cursor-pointer">
               <i data-lucide="file-down" class="w-4 h-4"></i>
               <span>Download PDF</span>
             </button>
 
             <!-- Download DOCX -->
-            <button type="button" id="btn-download-docx" class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm shadow-md shadow-blue-700/20 hover:shadow-lg transition-all active:scale-95 cursor-pointer">
+            <button type="button" id="btn-download-docx"
+              class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm shadow-md shadow-blue-700/20 hover:shadow-lg transition-all active:scale-95 cursor-pointer">
               <i data-lucide="file-text" class="w-4 h-4"></i>
               <span>Download DOCX</span>
             </button>
 
             <!-- Print Direct -->
-            <button type="button" id="btn-print-cover" class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-900 text-white font-semibold text-sm shadow-sm transition-all active:scale-95 cursor-pointer">
+            <button type="button" id="btn-print-cover"
+              class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-900 text-white font-semibold text-sm shadow-sm transition-all active:scale-95 cursor-pointer">
               <i data-lucide="printer" class="w-4 h-4"></i>
               <span>Print Sheet</span>
             </button>
@@ -922,7 +1235,8 @@
 
   <!-- Footer -->
   <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 no-print mt-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
       <div class="flex items-center gap-3">
         <img src="assets/logos/nstu-logo.png" alt="NSTU Logo" class="h-8 w-auto opacity-80">
         <div>
@@ -944,4 +1258,5 @@
   <script src="js/pdf-export.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>

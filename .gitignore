@@ -24,3 +24,6 @@ tmp/
 
 # Dependency directories
 node_modules/
+
+# Generated exports and test PDFs
+*.pdf

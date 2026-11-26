@@ -71,8 +71,8 @@
       }
     ]
   },
-  "ISLM": {
-    "code": "ISLM",
+  "IIS": {
+    "code": "IIS",
     "name": "Institute of Information Science",
     "teachers": [
       {

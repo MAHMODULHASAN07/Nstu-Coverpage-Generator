@@ -1,9 +1,9 @@
 // NSTU Cover Page Generator - Main Application Controller
 
-(function() {
+(function () {
   // Application State
-  const STORAGE_KEY = 'nstu_cover_page_v2';
-  const CUSTOM_KEY = 'nstu_cover_customization_v2';
+  const STORAGE_KEY = 'nstu_cover_page_v4';
+  const CUSTOM_KEY = 'nstu_cover_customization_v4';
 
   // Default state initialized with sample data from coverpage.docx
   const defaultFormData = {
@@ -11,18 +11,18 @@
     nstuLogo: window.DEFAULT_LOGOS ? window.DEFAULT_LOGOS.nstu : "",
     hasDepartmentLogo: true,
     departmentLogo: window.DEFAULT_LOGOS ? window.DEFAULT_LOGOS.iit : "",
-    assignmentType: "Assignment Report",
+    assignmentType: "Assignment",
     assignmentTopic: "Control Flow Graph (CFG) Construction and Cyclomatic Complexity Analysis on Water Sort Puzzle Game",
     courseTitle: "Software Metrics Lab",
     courseCode: "SE 3204",
-    submissionDate: "19 November 2026",
+    submissionDate: "16 December, 2026",
     submittedByLabel: "Submitted by",
-    studentName: "Mahmodul Hasan",
-    studentId: "ASH2325015M",
-    session: "2022-23",
+    studentName: "Mohammad Rahim",
+    studentId: "ASH2125055M",
+    session: "2021-22",
     department: "Institute of Information Technology",
     studentUniversity: "Noakhali Science and Technology University",
-    supervisedByLabel: "Supervised by",
+    supervisedByLabel: "Submitted to",
     teacherName: "Md Hasan Imam",
     teacherDesignation: "Assistant Professor",
     teacherDepartment: "Institute of Information Technology",
@@ -37,12 +37,12 @@
     marginSize: 'normal',
     logoSize: 110,
     nstuLogoSize: 110,
-    nstuLogoX: 0,
-    nstuLogoY: 0,
-    deptLogoSize: 110,
+    nstuLogoX: -10,
+    nstuLogoY: -19,
+    deptLogoSize: 100,
     deptLogoX: 0,
-    deptLogoY: 0,
-    logosGap: 40,
+    deptLogoY: -4,
+    logosGap: 66,
     tableWidth: 100,
     pageBorder: 'none',
     textAlign: 'center'
@@ -60,7 +60,7 @@
       if (!formData.nstuLogo && window.DEFAULT_LOGOS) formData.nstuLogo = window.DEFAULT_LOGOS.nstu;
       if (!formData.departmentLogo && window.DEFAULT_LOGOS) formData.departmentLogo = window.DEFAULT_LOGOS.iit;
       if (!formData.submittedByLabel) formData.submittedByLabel = "Submitted by";
-      if (!formData.supervisedByLabel) formData.supervisedByLabel = "Supervised by";
+      if (!formData.supervisedByLabel) formData.supervisedByLabel = "Submitted to";
     }
     const savedCustom = localStorage.getItem(CUSTOM_KEY);
     if (savedCustom) {
@@ -84,7 +84,7 @@
 
     const toast = document.createElement('div');
     toast.className = `toast toast-${type}`;
-    
+
     let iconSvg = '';
     if (type === 'success') {
       iconSvg = '<svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
@@ -685,13 +685,14 @@
     const btnResetLogoPos = document.getElementById('btn-reset-logo-pos');
     if (btnResetLogoPos) {
       btnResetLogoPos.addEventListener('click', () => {
-        customization.nstuLogoSize = 110;
-        customization.nstuLogoX = 0;
-        customization.nstuLogoY = 0;
-        customization.deptLogoSize = 110;
-        customization.deptLogoX = 0;
-        customization.deptLogoY = 0;
-        customization.logosGap = 40;
+        customization.logoSize = defaultCustomization.logoSize;
+        customization.nstuLogoSize = defaultCustomization.nstuLogoSize;
+        customization.nstuLogoX = defaultCustomization.nstuLogoX;
+        customization.nstuLogoY = defaultCustomization.nstuLogoY;
+        customization.deptLogoSize = defaultCustomization.deptLogoSize;
+        customization.deptLogoX = defaultCustomization.deptLogoX;
+        customization.deptLogoY = defaultCustomization.deptLogoY;
+        customization.logosGap = defaultCustomization.logosGap;
 
         populateFormInputs();
         debouncedSave();
@@ -905,18 +906,24 @@
       });
     }
 
-    // Hero "Create Cover Page" Button
-    const btnHeroCreate = document.getElementById('btn-hero-create');
-    if (btnHeroCreate) {
-      btnHeroCreate.addEventListener('click', () => {
+    // Navbar & Hero "Create Cover Page" Buttons linked to Edit Section
+    const navCreateBtns = document.querySelectorAll('#btn-nav-create, #btn-nav-create-mobile, #btn-hero-create');
+    navCreateBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
         const target = document.getElementById('generator-section');
         if (target) {
           target.scrollIntoView({ behavior: 'smooth' });
-          const firstInput = document.getElementById('input-assignmentTopic');
-          if (firstInput) setTimeout(() => firstInput.focus(), 600);
         }
+        // If mobile view, ensure form edit tab is selected
+        const tabForm = document.getElementById('mobile-tab-btn-form');
+        if (tabForm && window.innerWidth < 1024) {
+          tabForm.click();
+        }
+        const firstInput = document.getElementById('input-assignmentTopic') || document.getElementById('input-universityName');
+        if (firstInput) setTimeout(() => firstInput.focus(), 650);
       });
-    }
+    });
   }
 
   // Helper for logo upload with file reader
@@ -1023,22 +1030,20 @@
     }
   }
 
-  // NSTU Faculty Directory - Department & Teacher Dropdown with Auto-Fill
+  // NSTU Faculty Directory - Two Dropdowns (1. Dept -> 2. Teacher) with Auto-Fill
   function initTeacherDirectory() {
     const deptSelect = document.getElementById('select-teacher-dept');
     const teacherSelect = document.getElementById('select-teacher-name');
-    const searchInput = document.getElementById('input-teacher-search-quick');
-    const searchDropdown = document.getElementById('quick-search-dropdown');
     const countBadge = document.getElementById('teacher-count-badge');
+    const hintEl = document.getElementById('nstu-directory-hint');
 
     if (!deptSelect || !teacherSelect) return;
 
     const data = window.NSTU_TEACHERS_DATA || {};
     const deptList = Object.values(data).sort((a, b) => a.name.localeCompare(b.name));
-    const totalTeachers = deptList.reduce((acc, d) => acc + (d.teachers ? d.teachers.length : 0), 0);
 
-    // Clear and populate Department dropdown filter (No teacher count numbers)
-    deptSelect.innerHTML = '<option value="">-- All Departments & Institutes --</option>';
+    // Populate Department dropdown
+    deptSelect.innerHTML = '<option value="">-- 1. Select Department / Institute --</option>';
     deptList.forEach(dept => {
       const opt = document.createElement('option');
       opt.value = dept.code;
@@ -1057,53 +1062,41 @@
       });
     }
 
-    // Function to populate teacher dropdown (No teacher count numbers beside dept name)
-    function populateTeacherDropdown(selectedDeptCode = '') {
+    // Function to populate teachers of chosen department
+    function populateTeachers(deptCode, preselectIdx = -1) {
       teacherSelect.innerHTML = '';
+      if (!deptCode || !data[deptCode]) {
+        teacherSelect.disabled = true;
+        const opt = document.createElement('option');
+        opt.value = '';
+        opt.textContent = '-- 2. First Select Department Above --';
+        teacherSelect.appendChild(opt);
+        if (hintEl) hintEl.textContent = 'First select a department, then select the teacher from the list below.';
+        return;
+      }
+
+      const dept = data[deptCode];
       teacherSelect.disabled = false;
 
-      if (!selectedDeptCode) {
-        // Show ALL teachers grouped by department with <optgroup> (Clean department label without counts)
-        const placeholder = document.createElement('option');
-        placeholder.value = '';
-        placeholder.textContent = '-- Choose Teacher from List --';
-        teacherSelect.appendChild(placeholder);
+      const placeholder = document.createElement('option');
+      placeholder.value = '';
+      placeholder.textContent = `-- 2. Select Teacher from ${dept.name} (${dept.teachers ? dept.teachers.length : 0} found) --`;
+      placeholder.disabled = true;
+      if (preselectIdx === -1) placeholder.selected = true;
+      teacherSelect.appendChild(placeholder);
 
-        deptList.forEach(dept => {
-          if (!dept.teachers || dept.teachers.length === 0) return;
-          const group = document.createElement('optgroup');
-          group.label = dept.name;
-          dept.teachers.forEach((t, idx) => {
-            const opt = document.createElement('option');
-            opt.value = `${dept.code}:${idx}`;
-            opt.textContent = `${t.name} — ${t.designation}`;
-            group.appendChild(opt);
-          });
-          teacherSelect.appendChild(group);
+      if (dept.teachers) {
+        dept.teachers.forEach((t, idx) => {
+          const opt = document.createElement('option');
+          opt.value = `${dept.code}:${idx}`;
+          opt.textContent = `${t.name} — ${t.designation}`;
+          if (preselectIdx === idx) opt.selected = true;
+          teacherSelect.appendChild(opt);
         });
+      }
 
-        if (countBadge) {
-          countBadge.textContent = 'NSTU Faculty';
-        }
-      } else {
-        const dept = data[selectedDeptCode];
-        if (dept && dept.teachers) {
-          const placeholder = document.createElement('option');
-          placeholder.value = '';
-          placeholder.textContent = `-- Choose Teacher from ${dept.name} --`;
-          teacherSelect.appendChild(placeholder);
-
-          dept.teachers.forEach((t, idx) => {
-            const opt = document.createElement('option');
-            opt.value = `${dept.code}:${idx}`;
-            opt.textContent = `${t.name} — ${t.designation}`;
-            teacherSelect.appendChild(opt);
-          });
-
-          if (countBadge) {
-            countBadge.textContent = 'NSTU Faculty';
-          }
-        }
+      if (hintEl) {
+        hintEl.innerHTML = `Showing faculty for <strong class="text-blue-900">${dept.name}</strong>. Choose a teacher to auto-fill.`;
       }
     }
 
@@ -1114,12 +1107,12 @@
       formData.teacherName = teacher.name || '';
       formData.teacherDesignation = teacher.designation || '';
 
-      // Specific requirement: For IIT, IIS teachers, dept name will be Institute of Information Technology and Institute of Information Science respectively
+      // Clean department naming for IIT & IIS
       let deptNameVal = teacher.department || deptName || '';
       const checkStr = ((teacher.deptCode || '') + ' ' + deptNameVal + ' ' + (teacher.name || '')).toLowerCase();
       if (teacher.deptCode === 'IIT(SE)' || checkStr.includes('information technology') || (checkStr.includes('software engineering') && !checkStr.includes('environmental'))) {
         deptNameVal = 'Institute of Information Technology';
-      } else if (teacher.deptCode === 'ISLM' || checkStr.includes('information science') || checkStr.includes('library management')) {
+      } else if (teacher.deptCode === 'IIS' || teacher.deptCode === 'ISLM' || checkStr.includes('information science') || checkStr.includes('library management')) {
         deptNameVal = 'Institute of Information Science';
       }
 
@@ -1148,55 +1141,13 @@
       showToast(`Selected: ${teacher.name} (${teacher.designation})`, 'success');
     }
 
-    // Synchronize teacher dropdown selection with formData.teacherName
-    function syncTeacherDropdownWithFormData() {
-      if (!formData.teacherName) return;
-      const targetName = formData.teacherName.trim().toLowerCase();
-      let matchedDeptCode = '';
-      let matchedIdx = -1;
-
-      for (const dept of deptList) {
-        if (!dept.teachers) continue;
-        const idx = dept.teachers.findIndex(t => t.name.trim().toLowerCase() === targetName);
-        if (idx !== -1) {
-          matchedDeptCode = dept.code;
-          matchedIdx = idx;
-          break;
-        }
-      }
-
-      if (matchedDeptCode && matchedIdx !== -1) {
-        if (deptSelect.value && deptSelect.value !== matchedDeptCode) {
-          deptSelect.value = matchedDeptCode;
-          populateTeacherDropdown(matchedDeptCode);
-        }
-        teacherSelect.value = `${matchedDeptCode}:${matchedIdx}`;
-      }
-    }
-
-    // Expose for external calls (like preset or reset)
-    window.syncTeacherDirectorySelection = syncTeacherDropdownWithFormData;
-
-    // Initial population on load: immediately shows all 335 teachers
-    populateTeacherDropdown('');
-    syncTeacherDropdownWithFormData();
-
-    // When Department is changed
+    // Event: Department dropdown changed
     deptSelect.addEventListener('change', (e) => {
       const deptCode = e.target.value;
-      populateTeacherDropdown(deptCode);
-
-      // If current teacher is in this department, keep them selected
-      if (deptCode && formData.teacherName && data[deptCode] && data[deptCode].teachers) {
-        const targetName = formData.teacherName.trim().toLowerCase();
-        const idx = data[deptCode].teachers.findIndex(t => t.name.trim().toLowerCase() === targetName);
-        if (idx !== -1) {
-          teacherSelect.value = `${deptCode}:${idx}`;
-        }
-      }
+      populateTeachers(deptCode);
     });
 
-    // When Teacher is selected from dropdown
+    // Event: Teacher dropdown changed
     teacherSelect.addEventListener('change', (e) => {
       const val = teacherSelect.value;
       if (!val) return;
@@ -1205,87 +1156,266 @@
       if (data[deptCode] && data[deptCode].teachers && data[deptCode].teachers[idx]) {
         const teacher = data[deptCode].teachers[idx];
         selectAndFillTeacher(teacher, data[deptCode].name);
-        if (!deptSelect.value) {
-          deptSelect.value = deptCode;
-        }
       }
     });
 
-    // Quick Universal Search across all 335+ NSTU teachers
-    if (searchInput && searchDropdown) {
-      const allTeachersList = [];
-      deptList.forEach(dept => {
-        (dept.teachers || []).forEach((t, idx) => {
-          let tDept = t.department || dept.name;
-          if (dept.code === 'IIT(SE)' || tDept.includes('Software Engineering') || tDept.includes('Information Technology')) {
-            tDept = 'Institute of Information Technology';
-          } else if (dept.code === 'ISLM' || tDept.includes('Information Science') || tDept.includes('Library Management')) {
-            tDept = 'Institute of Information Science';
-          }
-          allTeachersList.push({
-            ...t,
-            department: tDept,
-            deptCode: dept.code,
-            deptName: dept.name,
-            teacherIndex: idx
-          });
-        });
+    // Synchronize teacher dropdown selection with formData.teacherName
+    function syncTeacherDropdownWithFormData() {
+      if (!formData.teacherName) {
+        deptSelect.value = '';
+        populateTeachers('');
+        return;
+      }
+
+      const targetName = formData.teacherName.trim().toLowerCase();
+      let matchedDeptCode = '';
+      let matchedIdx = -1;
+
+      for (const dept of deptList) {
+        if (!dept.teachers) continue;
+        const idx = dept.teachers.findIndex(t => t.name && t.name.trim().toLowerCase() === targetName);
+        if (idx !== -1) {
+          matchedDeptCode = dept.code;
+          matchedIdx = idx;
+          break;
+        }
+      }
+
+      if (matchedDeptCode && matchedIdx !== -1) {
+        deptSelect.value = matchedDeptCode;
+        populateTeachers(matchedDeptCode, matchedIdx);
+      } else {
+        deptSelect.value = '';
+        populateTeachers('');
+      }
+    }
+
+    // Expose for external calls (like preset or reset)
+    window.syncTeacherDirectorySelection = syncTeacherDropdownWithFormData;
+
+    // Initial population on load
+    syncTeacherDropdownWithFormData();
+  }
+
+  // Accordion / Collapsible Sections for Form Cards
+  function initFormAccordions() {
+    const headers = document.querySelectorAll('.accordion-header');
+    const expandAllBtn = document.getElementById('btn-accordion-expand-all');
+    const collapseAllBtn = document.getElementById('btn-accordion-collapse-all');
+
+    function toggleAccordion(header, forceOpen = null) {
+      const targetId = header.getAttribute('data-target');
+      const content = document.getElementById(targetId);
+      const chevron = header.querySelector('.accordion-chevron');
+      const statusEl = header.querySelector('.accordion-status');
+      if (!content) return;
+
+      const isCurrentlyOpen = !content.classList.contains('hidden');
+      const shouldOpen = forceOpen !== null ? forceOpen : !isCurrentlyOpen;
+
+      if (shouldOpen) {
+        content.classList.remove('hidden');
+        header.setAttribute('aria-expanded', 'true');
+        header.classList.add('bg-blue-50/40');
+        if (chevron) chevron.classList.add('rotate-180');
+        if (statusEl) {
+          statusEl.textContent = 'Editing';
+          statusEl.className = 'accordion-status text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200 hidden sm:inline-block';
+        }
+      } else {
+        content.classList.add('hidden');
+        header.setAttribute('aria-expanded', 'false');
+        header.classList.remove('bg-blue-50/40');
+        if (chevron) chevron.classList.remove('rotate-180');
+        if (statusEl) {
+          statusEl.textContent = 'Click to Edit';
+          statusEl.className = 'accordion-status text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100 hidden sm:inline-block';
+        }
+      }
+
+      if (window.lucide && typeof window.lucide.createIcons === 'function') {
+        window.lucide.createIcons();
+      }
+    }
+
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        toggleAccordion(header);
       });
+    });
 
-      searchInput.addEventListener('input', (e) => {
-        const query = (e.target.value || '').trim().toLowerCase();
-        if (query.length < 2) {
-          searchDropdown.classList.add('hidden');
-          searchDropdown.innerHTML = '';
-          return;
-        }
-
-        const matches = allTeachersList.filter(t => 
-          (t.name && t.name.toLowerCase().includes(query)) || 
-          (t.designation && t.designation.toLowerCase().includes(query)) ||
-          (t.department && t.department.toLowerCase().includes(query))
-        ).slice(0, 10);
-
-        if (matches.length === 0) {
-          searchDropdown.innerHTML = `<div class="p-3 text-slate-400 text-center text-xs">No teacher found matching "${query}"</div>`;
-          searchDropdown.classList.remove('hidden');
-          return;
-        }
-
-        searchDropdown.innerHTML = '';
-        matches.forEach(t => {
-          const item = document.createElement('div');
-          item.className = 'p-2.5 hover:bg-blue-50 cursor-pointer transition-colors flex flex-col gap-0.5 border-b border-slate-100 last:border-b-0';
-          item.innerHTML = `
-            <div class="font-bold text-slate-800 text-xs">${t.name}</div>
-            <div class="text-[11px] text-blue-600 font-semibold">${t.designation}</div>
-            <div class="text-[10px] text-slate-500">${t.department}</div>
-          `;
-          item.addEventListener('click', () => {
-            deptSelect.value = t.deptCode;
-            populateTeacherDropdown(t.deptCode);
-            teacherSelect.value = `${t.deptCode}:${t.teacherIndex}`;
-            selectAndFillTeacher(t, t.deptName);
-            searchInput.value = '';
-            searchDropdown.classList.add('hidden');
-          });
-          searchDropdown.appendChild(item);
-        });
-
-        searchDropdown.classList.remove('hidden');
+    if (expandAllBtn) {
+      expandAllBtn.addEventListener('click', () => {
+        headers.forEach(h => toggleAccordion(h, true));
       });
+    }
 
-      // Close dropdown if user clicks outside
-      document.addEventListener('click', (e) => {
-        if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
-          searchDropdown.classList.add('hidden');
-        }
+    if (collapseAllBtn) {
+      collapseAllBtn.addEventListener('click', () => {
+        headers.forEach(h => toggleAccordion(h, false));
       });
     }
   }
 
+  // University Campus Photo Carousel in Hero Section
+  function initHeroSlider() {
+    const frame = document.getElementById('hero-carousel-frame');
+    if (!frame) return;
+
+    const slides = frame.querySelectorAll('.hero-slide-img');
+    const dotsContainer = document.getElementById('hero-slider-dots');
+    const counter = document.getElementById('hero-slider-counter');
+    const captionEl = document.getElementById('hero-slider-caption');
+    const prevBtn = document.getElementById('btn-hero-prev');
+    const nextBtn = document.getElementById('btn-hero-next');
+
+    if (!slides.length) return;
+
+    // =========================================================================
+    // NSTU CAMPUS PHOTO LOCATION NAMES (ক্যাম্পাসের লোকেশন নাম পরিবর্তন করুন এখানে)
+    // =========================================================================
+    // নিচের ৬টি নাম আপনার সঠিক ছবির নাম/লোকেশন অনুযায়ী বাংলায় বা ইংরেজিতে পরিবর্তন করুন:
+    const captions = [
+      "Shahid Minar",   // 1. image1.jpg এর লোকেশন নাম
+      "Administration Building",      // 2. image2.jpeg এর লোকেশন নাম
+      "July Shaheed Smriti Chhatri Hall",            // 3. image3.jpeg এর লোকেশন নাম
+      "Shahid Minar", // 4. image4.jpeg এর লোকেশন নাম
+      "Campus main gate",       // 5. image5.jpeg এর লোকেশন নাম
+      "NSTU central mosque",   // 6. image6.jpeg এর লোকেশন নাম
+      "Shahid Minar",   // 1. image1.jpg এর লোকেশন নাম
+      "Administration Building",      // 2. image2.jpeg এর লোকেশন নাম
+      "July Shaheed Smriti Chhatri Hall",            // 3. image3.jpeg এর লোকেশন নাম
+      "Shahid Minar", // 4. image4.jpeg এর লোকেশন নাম
+      "Campus main gate",       // 5. image5.jpeg এর লোকেশন নাম
+      "NSTU central mosque"   // 6. image6.jpeg এর লোকেশন নাম
+    ];
+
+    let currentIndex = 0;
+    let timer = null;
+    const intervalMs = 3000;
+
+    // Render dot indicators
+    if (dotsContainer) {
+      dotsContainer.innerHTML = '';
+      slides.forEach((_, idx) => {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = `transition-all duration-300 rounded-full cursor-pointer ${idx === 0 ? 'w-6 h-2 bg-blue-400 shadow-sm' : 'w-2 h-2 bg-white/40 hover:bg-white/70'}`;
+        dot.setAttribute('aria-label', `Go to slide ${idx + 1}`);
+        dot.addEventListener('click', (e) => {
+          e.preventDefault();
+          goToSlide(idx);
+          resetTimer();
+        });
+        dotsContainer.appendChild(dot);
+      });
+    }
+
+    function goToSlide(index) {
+      currentIndex = (index + slides.length) % slides.length;
+
+      slides.forEach((slide, idx) => {
+        if (idx === currentIndex) {
+          slide.classList.remove('opacity-0', 'scale-105', 'pointer-events-none', 'z-0');
+          slide.classList.add('opacity-100', 'scale-100', 'z-10');
+        } else {
+          slide.classList.remove('opacity-100', 'scale-100', 'z-10');
+          slide.classList.add('opacity-0', 'scale-105', 'pointer-events-none', 'z-0');
+        }
+      });
+
+      if (counter) {
+        counter.textContent = `${currentIndex + 1} / ${slides.length}`;
+      }
+
+      if (captionEl && captions[currentIndex]) {
+        captionEl.innerHTML = `<i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-400 shrink-0"></i> ${captions[currentIndex]}`;
+        if (window.lucide) window.lucide.createIcons({ root: captionEl });
+      }
+
+      if (dotsContainer) {
+        const dots = dotsContainer.querySelectorAll('button');
+        dots.forEach((dot, idx) => {
+          if (idx === currentIndex) {
+            dot.className = 'transition-all duration-300 rounded-full w-6 h-2 bg-blue-400 shadow-sm cursor-pointer';
+          } else {
+            dot.className = 'transition-all duration-300 rounded-full w-2 h-2 bg-white/40 hover:bg-white/70 cursor-pointer';
+          }
+        });
+      }
+    }
+
+    function nextSlide() {
+      goToSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      goToSlide(currentIndex - 1);
+    }
+
+    function startTimer() {
+      stopTimer();
+      timer = setInterval(nextSlide, intervalMs);
+    }
+
+    function stopTimer() {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    }
+
+    function resetTimer() {
+      stopTimer();
+      startTimer();
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        prevSlide();
+        resetTimer();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        nextSlide();
+        resetTimer();
+      });
+    }
+
+    // Pause on hover
+    frame.addEventListener('mouseenter', stopTimer);
+    frame.addEventListener('mouseleave', startTimer);
+
+    // Touch swipe support for mobile
+    let touchStartX = 0;
+    frame.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+      stopTimer();
+    }, { passive: true });
+
+    frame.addEventListener('touchend', (e) => {
+      const touchEndX = e.changedTouches[0].screenX;
+      if (touchStartX - touchEndX > 40) {
+        nextSlide();
+      } else if (touchEndX - touchStartX > 40) {
+        prevSlide();
+      }
+      startTimer();
+    }, { passive: true });
+
+    // Initial start
+    goToSlide(0);
+    startTimer();
+  }
+
   // Initialize on DOM Ready or immediately if already loaded
   function initApp() {
+    initHeroSlider();
+    initFormAccordions();
     initTeacherDirectory();
     populateFormInputs();
     renderLivePreview();
